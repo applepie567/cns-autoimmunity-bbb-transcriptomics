@@ -122,8 +122,8 @@ Please cite the Zenodo version 1.0.0 archive and the associated manuscript:
 - GitHub repository:
   [applepie567/cns-autoimmunity-bbb-transcriptomics](https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics)
 
-The DOI is reserved for this release and becomes resolvable when the Zenodo
-record is published. Citation metadata are provided in `CITATION.cff`.
+This DOI identifies the version 1.0.0 Zenodo record and becomes resolvable
+when that record is published. Citation metadata are provided in `CITATION.cff`.
 
 ## Contact
 
