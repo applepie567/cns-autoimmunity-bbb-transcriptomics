@@ -1,0 +1,11 @@
+component,version_or_setting,role
+Python,3.12.13,raw-matrix audit and figure generation
+NumPy,2.3.5,numerical operations
+pandas,2.2.3,tabular processing and pseudobulk summaries
+SciPy,1.17.0,sparse-matrix input and statistical tests
+Matplotlib,3.10.8,publication figure generation
+Pillow,12.3.0,TIFF export and image validation
+openpyxl,3.1.5,optional source-workbook extraction
+Random seed,20260820,fixed project seed
+Permutation mode,fully enumerated,deterministic exact tests
+Multiple testing,Benjamini-Hochberg,false-discovery-rate control

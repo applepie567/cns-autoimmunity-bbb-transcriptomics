@@ -1,0 +1,69 @@
+Results claim,Reported value(s),Source file / row,Verification,Action
+GSE210776 acute EAE vs CFA: BBB_transport_identity,Delta=-0.189; P=0.0416; FDR=0.0654,GSE210776_venous_mechanistic_module_effects.csv | Feature=BBB_transport_identity,Verified,Retain
+GSE210776 acute EAE vs CFA: Tight_junction,Delta=-0.288; P=0.0133; FDR=0.0367,GSE210776_venous_mechanistic_module_effects.csv | Feature=Tight_junction,Verified,Retain
+GSE210776 acute EAE vs CFA: Wnt_BBB,Delta=-0.095; P=0.0314; FDR=0.0576,GSE210776_venous_mechanistic_module_effects.csv | Feature=Wnt_BBB,Verified,Retain
+GSE210776 acute EAE vs CFA: Caveolae_structural,Delta=-0.365; P=0.0027; FDR=0.0221,GSE210776_venous_mechanistic_module_effects.csv | Feature=Caveolae_structural,Verified,Retain
+GSE210776 acute EAE vs CFA: PLVAP_permeability,Delta=+0.061; P=0.0060; FDR=0.0221,GSE210776_venous_mechanistic_module_effects.csv | Feature=PLVAP_permeability,Verified,Retain
+GSE210776 acute EAE vs CFA: IFN_antigen_presentation,Delta=+0.391; P=0.0252; FDR=0.0555,GSE210776_venous_mechanistic_module_effects.csv | Feature=IFN_antigen_presentation,Verified,Retain
+GSE210776 acute EAE vs CFA: TGF_response,Delta=+0.053; P=0.0057; FDR=0.0221,GSE210776_venous_mechanistic_module_effects.csv | Feature=TGF_response,Verified,Retain
+GSE210776 acute EAE vs CFA: Cldn5,Delta=-0.580; P=0.0066; FDR=0.0542,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Cldn5,Verified,Retain
+GSE210776 acute EAE vs CFA: Lsr,Delta=-0.250; P=0.0041; FDR=0.0407,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Lsr,Verified,Retain
+GSE210776 acute EAE vs CFA: Abcg2,Delta=-0.446; P=0.0114; FDR=0.0644,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Abcg2,Verified,Retain
+GSE210776 acute EAE vs CFA: Mfsd2a,Delta=-0.103; P=0.0732; FDR=0.1464,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Mfsd2a,Verified,Retain
+GSE210776 acute EAE vs CFA: Cav1,Delta=-0.501; P=0.0031; FDR=0.0358,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Cav1,Verified,Retain
+GSE210776 acute EAE vs CFA: Cav2,Delta=-0.463; P=0.0070; FDR=0.0542,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Cav2,Verified,Retain
+GSE210776 acute EAE vs CFA: Angpt2,Delta=+0.197; P=0.0123; FDR=0.0644,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Angpt2,Verified,Retain
+GSE210776 acute EAE vs CFA: H2-Aa,Delta=+0.458; P=0.0005; FDR=0.0184,GSE210776_venous_mechanistic_gene_effects.csv | Feature=H2-Aa,Verified,Retain
+GSE210776 acute EAE vs CFA: H2-Ab1,Delta=+0.464; P=0.0016; FDR=0.0285,GSE210776_venous_mechanistic_gene_effects.csv | Feature=H2-Ab1,Verified,Retain
+GSE210776 acute EAE vs CFA: B2m,Delta=+0.510; P=0.0096; FDR=0.0609,GSE210776_venous_mechanistic_gene_effects.csv | Feature=B2m,Verified,Retain
+GSE210776 acute EAE vs CFA: Tap1,Delta=+0.577; P=0.0178; FDR=0.0734,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Tap1,Verified,Retain
+GSE210776 acute EAE vs CFA: Cxcl9,Delta=+0.633; P=0.0090; FDR=0.0609,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Cxcl9,Verified,Retain
+GSE210776 acute EAE vs CFA: Ctgf,Delta=+0.324; P=0.0138; FDR=0.0644,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Ctgf,Verified,Retain
+GSE210776 acute EAE vs CFA: Serpine1,Delta=+0.225; P=0.0281; FDR=0.0935,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Serpine1,Verified,Retain
+GSE210776 acute EAE vs CFA: Tgfbr2,Delta=+0.019; P=0.3660; FDR=0.4494,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Tgfbr2,Verified,Retain
+GSE210776 acute EAE vs CFA: Smad4,Delta=-0.083; P=0.0016; FDR=0.0285,GSE210776_venous_mechanistic_gene_effects.csv | Feature=Smad4,Verified,Retain
+BEVAC3 venous Tight_junction,Delta=+0.276; exact P=0.0286; FDR=0.1214; n=4 vs 3,Integrated_BEVAC3_venous_modules.csv | feature=Tight_junction,Verified,Retain
+BEVAC3 venous Wnt_BBB,Delta=+0.218; exact P=0.0286; FDR=0.1214; n=4 vs 3,Integrated_BEVAC3_venous_modules.csv | feature=Wnt_BBB,Verified,Retain
+BEVAC3 venous Cldn5,Delta=+0.429; exact P=0.0286; FDR=0.1214,GSE210776_BEVAC3_exact_permutation_stats.csv | Venous/Cldn5,Verified,Retain
+BEVAC3 venous Abcg2,Delta=+0.387; exact P=0.0286; FDR=0.1214,GSE210776_BEVAC3_exact_permutation_stats.csv | Venous/Abcg2,Verified,Retain
+BEVAC3 venous Mfsd2a,Delta=+0.036; exact P=0.2857; FDR=0.4626,GSE210776_BEVAC3_exact_permutation_stats.csv | Venous/Mfsd2a,Verified,Retain
+GSE279183 snRNA EC_all MS vs control: Tight_junction,Delta=-0.106; P=0.4026; FDR=0.7646,Integrated_human_snRNA_EC_modules.csv | EC_all/MS_vs_CTRL/Tight_junction,Verified,Retain
+GSE279183 snRNA EC_all MS vs control: BBB_transport_identity,Delta=-0.135; P=0.5519; FDR=0.8902,Integrated_human_snRNA_EC_modules.csv | EC_all/MS_vs_CTRL/BBB_transport_identity,Verified,Retain
+GSE279183 snRNA EC_all MS vs control: IFN_antigen_presentation,Delta=+0.243; P=0.2900; FDR=0.7646,Integrated_human_snRNA_EC_modules.csv | EC_all/MS_vs_CTRL/IFN_antigen_presentation,Verified,Retain
+GSE279183 snRNA EC_all MS vs control: ECM_protease,Delta=+0.635; P=0.0043; FDR=0.0736,Integrated_human_snRNA_EC_modules.csv | EC_all/MS_vs_CTRL/ECM_protease,Verified,Retain
+GSE279183 VI vs PPWM: JAK-STAT,Delta=+1.126; P=0.01562; FDR=0.01875; n=7,Integrated_human_spatial_PROGENy_VI.csv | pathway=JAK-STAT,Verified,Retain
+GSE279183 VI vs PPWM: NFkB,Delta=+0.638; P=0.01562; FDR=0.01875; n=7,Integrated_human_spatial_PROGENy_VI.csv | pathway=NFkB,Verified,Retain
+GSE279183 VI vs PPWM: TNFa,Delta=+0.709; P=0.01562; FDR=0.01875; n=7,Integrated_human_spatial_PROGENy_VI.csv | pathway=TNFa,Verified,Retain
+GSE279183 VI vs PPWM: TGFb,Delta=+0.814; P=0.01562; FDR=0.01875; n=7,Integrated_human_spatial_PROGENy_VI.csv | pathway=TGFb,Verified,Retain
+GSE279183 VI vs PPWM: VEGF,Delta=+0.331; P=0.01562; FDR=0.01875; n=7,Integrated_human_spatial_PROGENy_VI.csv | pathway=VEGF,Verified,Retain
+GSE279183 VI vs PPWM: WNT,Delta=+0.298; P=0.04688; FDR=0.04688; n=7,Integrated_human_spatial_PROGENy_VI.csv | pathway=WNT,Verified,Retain
+GSE279183 VI vs control WM: Tight_junction,Delta=-0.588; P=0.0177; FDR=0.0435,Integrated_human_spatial_barrier_identity.csv | module=Tight_junction,Verified,Retain
+GSE279183 VI vs control WM: BBB_transport_identity,Delta=-0.396; P=0.2096; FDR=0.2795,Integrated_human_spatial_barrier_identity.csv | module=BBB_transport_identity,Verified,Retain
+GSE279183 VI vs control WM: Wnt_BBB,Delta=-1.375; P=0.0013; FDR=0.0045,Integrated_human_spatial_barrier_identity.csv | module=Wnt_BBB,Verified,Retain
+GSE208747 lesion vs NAWM positive control: GPNMB,Delta=+1.038; exact P=0.0091; FDR=0.0364,reconstruction_positive_controls.csv | gene=GPNMB,Verified,Retain
+GSE208747 lesion vs NAWM positive control: IGKC,Delta=+1.937; exact P=0.0182; FDR=0.0485,reconstruction_positive_controls.csv | gene=IGKC,Verified,Retain
+GSE208747 lesion vs NAWM positive control: PLP1,Delta=-0.976; exact P=0.0091; FDR=0.0364,reconstruction_positive_controls.csv | gene=PLP1,Verified,Retain
+GSE208747 q30 EC-adjusted lesion vs NAWM: Tight_junction,Delta=-0.339; exact P=0.4818; FDR=0.6625,donor_aware_module_contrasts.csv | q30/module_z_ECadj/Tight_junction,Verified,Retain
+GSE208747 q30 EC-adjusted lesion vs NAWM: BBB_transport_identity,Delta=-0.203; exact P=1.0000; FDR=1.0000,donor_aware_module_contrasts.csv | q30/module_z_ECadj/BBB_transport_identity,Verified,Retain
+GSE208747 q30 EC-adjusted lesion vs NAWM: Caveolae_structural,Delta=+0.525; exact P=0.0182; FDR=0.2000,donor_aware_module_contrasts.csv | q30/module_z_ECadj/Caveolae_structural,Verified,Retain
+GSE208747 Active vs NAWM: ECM_protease,Delta=+1.418; exact P=0.1000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/ECM_protease,Verified,Retain
+GSE208747 Active vs NAWM: Caveolae_structural,Delta=+1.394; exact P=0.1000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/Caveolae_structural,Verified,Retain
+GSE208747 Active vs NAWM: Adhesion_trafficking,Delta=+1.369; exact P=0.2000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/Adhesion_trafficking,Verified,Retain
+GSE208747 Active vs NAWM: ROS_Src,Delta=+1.219; exact P=0.1000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/ROS_Src,Verified,Retain
+GSE208747 Active vs NAWM: TGF_response,Delta=+0.993; exact P=0.2000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/TGF_response,Verified,Retain
+GSE208747 Active vs NAWM: IFN_antigen_presentation,Delta=+0.755; exact P=0.2000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/IFN_antigen_presentation,Verified,Retain
+GSE208747 Active vs NAWM: PLVAP_permeability,Delta=+0.480; exact P=0.2000; FDR=0.2750,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/PLVAP_permeability,Verified,Retain
+GSE208747 Active vs NAWM: Tight_junction,Delta=-0.308; exact P=1.0000; FDR=1.0000,donor_aware_module_contrasts.csv | q30/Active_vs_NAWM/Tight_junction,Verified,Retain
+GSE163005 VE vs IIH: IFN/antiviral,Delta=+1.134; exact P=0.00749; FDR=0.05245,whole_CSF_module_contrasts.csv | IFN_antiviral/VE vs IIH,Verified,Retain
+GSE163005 VE vs MS: IFN/antiviral,Delta=+1.054; exact P=0.00749; FDR=0.05245,whole_CSF_module_contrasts.csv | IFN_antiviral/VE vs MS,Verified,Retain
+GSE163005 VE vs IIH: TNF/NFkB,Delta=+0.739; P=0.01499; FDR=0.05245,whole_CSF_module_contrasts.csv | TNF_NFkB/VE vs IIH,Verified,Retain
+GSE163194 acute vs recovery: IL1_IL6,Delta=+2.042; P=0.00280; FDR=0.00979,module_contrasts.csv | WholeCSF/IL1_IL6/Acute_vs_All_recovery,Verified,Retain
+GSE163194 acute vs recovery: Chemokine,Delta=+0.857; P=0.00280; FDR=0.00979,module_contrasts.csv | WholeCSF/Chemokine/Acute_vs_All_recovery,Verified,Retain
+GSE163194 acute vs recovery: Myeloid_proteolytic,Delta=+1.415; P=0.01958; FDR=0.04569,module_contrasts.csv | WholeCSF/Myeloid_proteolytic/Acute_vs_All_recovery,Verified,Retain
+GSE163194 acute vs recovery: IFN_antiviral,Delta=+1.237; P=0.05035; FDR=0.07049,module_contrasts.csv | WholeCSF/IFN_antiviral/Acute_vs_All_recovery,Verified,Retain
+GSE163194 acute vs recovery: TNF_NFkB,Delta=+0.726; P=0.05035; FDR=0.07049,module_contrasts.csv | WholeCSF/TNF_NFkB/Acute_vs_All_recovery,Verified,Retain
+GSE163194 acute vs recovery: neutrophil fraction,Delta=+0.700; P=0.00280; FDR=0.00629,composition_contrasts.csv | Neutrophil/Acute_vs_All_recovery,Verified,Retain
+Overall audit outcome,All numeric values in the compressed Results were traced to source-data tables.,All source tables listed above,Verified,No numeric correction required. Maintain cautious language where FDR >=0.05.
+Wording constraint,"Cldn5, Abcg2, Wnt-BBB, IFN/AP and several stage-stratified effects have nominal P<0.05 but FDR>=0.05.",Relevant source rows,Verified,Use decreased/increased/directional; do not call significant.
+Wording constraint,BEVAC3 effects are nominal/exact but do not survive module-level FDR correction.,Integrated_BEVAC3_venous_modules.csv,Verified,Use partial/directional transcriptomic normalization only.
+Wording constraint,GSE163005 viral IFN effects have FDR=0.0524.,whole_CSF_module_contrasts.csv,Verified,Use strong/consistent trend; avoid 'FDR-significant'.

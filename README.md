@@ -34,8 +34,8 @@ suffixes such as `(1)`.
   aggregation, exact permutation testing, Mann–Whitney testing, and QC exports.
 - `analysis/make_submission_figures.py`: generation of the main and supplementary
   figures from the included source and reconstructed result tables.
-- `analysis_results/`: frozen numerical outputs and the source-to-figure tables
-  used for the manuscript.
+- `analysis_results/`: aggregate numerical outputs and the source-to-figure
+  tables used for the manuscript.
 - `requirements.txt` and `environment.yml`: pinned Python environment.
 - `CITATION.cff`: author and software citation metadata.
 - `LICENSE` and `LICENSE-DATA.md`: code and data licensing terms.
@@ -52,6 +52,14 @@ suffixes such as `(1)`.
 
 The fixed values are also recorded in
 `analysis_results/analysis_parameters.json`.
+
+## Public-data boundary
+
+This public repository intentionally excludes patient-, donor-, animal-, and
+slide-level derived score tables. Those tables can be reconstructed locally
+from the cited public GEO inputs with `analysis/run_reanalysis.py`. The deposited
+tables are limited to aggregate contrasts, prespecified gene-set coverage,
+software metadata, and source-to-figure summaries.
 
 ## Installation
 

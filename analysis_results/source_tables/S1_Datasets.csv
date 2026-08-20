@@ -1,0 +1,8 @@
+Dataset,Species/tissue,Platform,Primary groups/structure,Role in study,Primary statistical unit
+GSE210776,Mouse CNS endothelium,scRNA-seq,Healthy/CFA/acute EAE/chronic EAE; BEVAC001-003,Discovery + VEGF-A perturbation,Mouse
+GSE199460,Mouse brain total + CD31-enriched,scRNA-seq,EAE vs control,Independent endothelial support + exploratory sender signals,Mouse
+GSE95401,Mouse FACS-enriched CNS endothelium,Bulk RNA-seq,EAE temporal stages,Orthogonal temporal validation,Mouse/sample
+GSE279183,Human MS/control brain,snRNA-seq + Visium,"Control, chronic active, chronic inactive; spatial niches",Human endothelial + spatial validation,Donor
+GSE208747,Human MS/control white matter,Visium,"CWM, NAWM, active, mixed active/inactive lesions",Independent human spatial validation,Donor
+GSE163005,Human CSF immune cells,scRNA-seq,IIH n=9; MS n=9; viral encephalitis n=5,Viral specificity comparator,Patient
+GSE163194,Human pediatric CSF immune cells,scRNA-seq,38 libraries -> 33 biological samples; disease stages,Bacterial meningitis comparator,Patient/sample

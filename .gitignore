@@ -1,0 +1,12 @@
+# Downloaded public inputs are intentionally not versioned.
+upload/
+
+# Local environments and caches.
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Regenerated submission figures and temporary files.
+outputs/
+*.tmp
