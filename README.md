@@ -116,9 +116,14 @@ are not direct measurements of blood–brain barrier permeability.
 
 ## Citation
 
-Please cite the archived Zenodo release and the associated manuscript. The DOI
-will be added to this README after the first public release is archived. Citation
-metadata are provided in `CITATION.cff`.
+Please cite the Zenodo version 1.0.0 archive and the associated manuscript:
+
+- DOI: [10.5281/zenodo.22031405](https://doi.org/10.5281/zenodo.22031405)
+- GitHub repository:
+  [applepie567/cns-autoimmunity-bbb-transcriptomics](https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics)
+
+The DOI is reserved for this release and becomes resolvable when the Zenodo
+record is published. Citation metadata are provided in `CITATION.cff`.
 
 ## Contact
 
