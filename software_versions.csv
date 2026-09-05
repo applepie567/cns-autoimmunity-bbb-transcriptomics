@@ -8,6 +8,8 @@ Pillow,12.3.0,verified in the freeze runtime
 openpyxl,3.1.5,verified in the freeze runtime
 ReportLab,4.4.9,verified in the freeze runtime
 h5py,3.15.1,locked requirement for raw HDF5 input reconstruction
-Random seed,20260901,used for bootstrap and figure jitter
+Project random seed,20260901,used for project bootstrap and figure jitter except the S15 sensitivity intervals
 Exact permutation mode,fully enumerated,deterministic when reported
 Multiple testing,Benjamini Hochberg,false discovery rate control
+Orthology bootstrap seed,20260904,original S15 focused-set bootstrap seed confirmed by exact numerical reproduction
+Orthology bootstrap resamples,2000,used for both focused-set confidence intervals in S15

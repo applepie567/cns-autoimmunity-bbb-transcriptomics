@@ -7,6 +7,7 @@ authors:
     given-names: Yuan
     orcid: "https://orcid.org/0000-0002-1839-1316"
 version: "2.0.0"
+doi: "10.5281/zenodo.22340814"
 date-released: "2026-09-05"
 repository-code: "https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics"
 license: MIT

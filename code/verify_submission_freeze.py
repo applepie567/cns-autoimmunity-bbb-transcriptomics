@@ -7,12 +7,14 @@ import argparse
 import hashlib
 import json
 import math
+import re
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
 import pandas as pd
 from openpyxl import load_workbook
+from scipy.stats import spearmanr
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,6 +46,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manuscript", type=Path)
     parser.add_argument("--report", type=Path)
+    parser.add_argument("--check-manifest", action="store_true",
+                        help="Check the unmodified downloaded archive before regenerating figures.")
     args = parser.parse_args()
 
     checks: list[dict[str, object]] = []
@@ -53,6 +57,11 @@ def main() -> None:
 
     required = [
         "README.md",
+        "public_data/README.md",
+        "REPRODUCIBILITY.md",
+        "code/run_strict_orthology.py",
+        "MANIFEST.sha256",
+        ".zenodo.json",
         "CITATION.cff",
         "environment.yml",
         "requirements.txt",
@@ -65,6 +74,40 @@ def main() -> None:
     ]
     missing = [item for item in required if not (ROOT / item).is_file()]
     check("required files", not missing, "missing: " + ", ".join(missing) if missing else "all required files present")
+
+    legacy = [name for name in ("analysis", "analysis_results") if (ROOT / name).exists()]
+    check("legacy directories removed", not legacy, ", ".join(legacy) if legacy else "none")
+    metadata = json.loads((ROOT / ".zenodo.json").read_text(encoding="utf-8"))
+    citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+    doi_match = re.search(r'^doi:\s*[\"\x27]?([^\"\x27\s]+)', citation, re.MULTILINE)
+    doi = "10.5281/zenodo.22340814"
+    check("version DOI metadata", metadata.get("doi") == doi and doi_match is not None and doi_match.group(1) == doi,
+          doi + " (reserved during package preparation)")
+
+    if args.check_manifest:
+        entries = {}
+        malformed = []
+        for line in (ROOT / "MANIFEST.sha256").read_text(encoding="utf-8").splitlines():
+            match = re.fullmatch(r"([0-9a-f]{64})  (.+)", line)
+            if not match:
+                malformed.append(line)
+                continue
+            digest, name = match.groups()
+            relative = Path(name)
+            if relative.is_absolute() or ".." in relative.parts or name in entries:
+                malformed.append(line)
+                continue
+            entries[name] = digest
+        bad = [name for name, digest in entries.items()
+               if not (ROOT / name).is_file() or sha256(ROOT / name) != digest]
+        actual = {p.relative_to(ROOT).as_posix() for p in ROOT.rglob("*")
+                  if p.is_file() and not any(part in {".git", "__pycache__"} for part in p.relative_to(ROOT).parts)
+                  and p.name != ".DS_Store" and p.suffix != ".pyc"
+                  and (args.report is None or p.resolve() != args.report.resolve())}
+        extras = sorted(actual - set(entries) - {"MANIFEST.sha256"})
+        check("archive manifest", not malformed and not bad and not extras,
+              f"{len(entries)} entries verified" if not malformed and not bad and not extras
+              else f"malformed={malformed}, missing/changed={bad}, extra={extras}")
 
     main_figures = sorted((ROOT / "figures" / "main").glob("Figure_*.png"))
     supplementary_figures = sorted((ROOT / "figures" / "supplementary").glob("Figure_S*.png"))
@@ -99,6 +142,9 @@ def main() -> None:
 
     parameters = json.loads((ROOT / "analysis_parameters.json").read_text(encoding="utf-8"))
     check("random seed", parameters.get("random_seed") == SEED, str(parameters.get("random_seed")))
+    check("orthology bootstrap seed", parameters.get("orthology_bootstrap_seed") == 20260904
+          and parameters.get("orthology_bootstrap_resamples") == 2000,
+          "20260904; 2000 resamples, as used by the original S15 analysis")
     figure_script = (ROOT / "code" / "make_bbi_figures.py").read_text(encoding="utf-8")
     check("selected Figure 4 background", "background_color: str = '#BFC4C8'" in figure_script and "background_alpha: float = .48" in figure_script, "light gray settings present")
 
@@ -135,6 +181,26 @@ def main() -> None:
     strict = pd.read_csv(ROOT / "results" / "strict_orthology_sensitivity_summary.csv")
     row = strict[(strict.mapping.str.startswith("HCOP")) & (strict.scope == "All shared genes")].iloc[0]
     check("strict orthology all gene result", int(row.n_genes) == 7705 and math.isclose(row.spearman_rho, 0.1868056122, abs_tol=1e-9), f"n={int(row.n_genes)}, rho={row.spearman_rho:.6f}")
+
+    # Validate the archived correlations against gene effects, independently of
+    # the summary tables. This does not repeat filtering of the original HCOP export.
+    gene_tables = {
+        "Uppercase-symbol match": pd.read_csv(ROOT / "results" / "cross_species_gene_effects.csv"),
+        "HCOP reciprocal 1:1; Ensembl+NCBI support": pd.read_csv(ROOT / "results" / "strict_orthology_gene_effects.csv"),
+    }
+    concordance_errors = []
+    for item in strict.itertuples():
+        genes = gene_tables[item.mapping]
+        if item.scope == "Prespecified focused genes":
+            genes = genes[genes.prespecified_state_gene.astype(str).str.lower().eq("true")]
+        rho = float(spearmanr(genes.mouse_pooled_g, genes.human_hedges_g).statistic)
+        direction = float(((genes.mouse_pooled_g > 0) & (genes.human_hedges_g > 0)
+                          | (genes.mouse_pooled_g < 0) & (genes.human_hedges_g < 0)).mean())
+        if (len(genes) != item.n_genes or not math.isclose(rho, item.spearman_rho, abs_tol=1e-12)
+                or not math.isclose(direction, item.same_direction_fraction, abs_tol=1e-12)):
+            concordance_errors.append(f"{item.mapping}: {item.scope}")
+    check("concordance recomputed from frozen gene effects", not concordance_errors,
+          ", ".join(concordance_errors) if concordance_errors else "all four counts, correlations and direction fractions match")
 
     merfish = pd.read_csv(ROOT / "results" / "GSE284005_paired_summary.csv")
     row = merfish[merfish.feature == "Stress/inflammatory endothelial fraction"].iloc[0]

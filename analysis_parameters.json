@@ -4,7 +4,7 @@
   "meta_analysis": "DerSimonian and Laird random effects with modified Knapp Hartung sensitivity intervals",
   "leave_one_dataset_out": true,
   "orthology_primary": "uppercase gene symbol matching",
-  "orthology_sensitivity": "HCOP reciprocal one to one pairs supported by Ensembl and NCBI, downloaded 2026-09-04",
+  "orthology_sensitivity": "HCOP reciprocal one to one pairs supported by Ensembl and NCBI, downloaded 2026-09-04; restricted to the primary uppercase-symbol-matched genes",
   "GSE284005_minimum_endothelial_cells_per_region": 50,
   "GSE284005_minimum_module_genes": 4,
   "GSE284005_minimum_module_coverage": 0.4,
@@ -17,5 +17,7 @@
     "color": "#BFC4C8",
     "alpha": 0.48,
     "point_size": 2.1
-  }
+  },
+  "orthology_bootstrap_seed": 20260904,
+  "orthology_bootstrap_resamples": 2000
 }

@@ -2,20 +2,40 @@
   "title": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis",
   "version": "2.0.0",
   "freeze_date": "2026-09-05",
-  "status": "PASS",
+  "status": "PASS: package and frozen-output validation",
   "manuscript_sha256": "14624b7c54e43292970310b8a763e872581d9d9edf7f3ca0b20c704a1da8083e",
   "main_figures": 5,
   "supplementary_figures": 9,
   "supplementary_tables": "S1 to S18",
   "combined_workbook_sheets": 20,
   "supplementary_pdf_pages": 9,
-  "figure_reproduction": "All five main figures and all nine supplementary figures regenerated with byte identical PNG hashes",
-  "zenodo_doi": "Pending creation of the version 2.0.0 archive. No future DOI is claimed in this freeze.",
+  "figure_reproduction": "All five main and all nine supplementary PNG figures regenerated with byte-identical hashes",
+  "zenodo_doi": "10.5281/zenodo.22340814",
+  "zenodo_status_at_preparation": "Reserved in an existing new-version draft; publication not performed in this session",
+  "project_seed": 20260901,
+  "orthology_bootstrap_seed": 20260904,
+  "orthology_bootstrap_resamples": 2000,
+  "raw_reconstruction_reexecuted": false,
+  "original_hcop_export_available": false,
+  "pending_manuscript_metadata_updates": [
+    "Add published repository and version DOI to Data Availability after publication",
+    "Document the S15 bootstrap seed exception in Section 2.10"
+  ],
   "checks": [
     {
       "check": "required files",
       "passed": true,
       "detail": "all required files present"
+    },
+    {
+      "check": "legacy directories removed",
+      "passed": true,
+      "detail": "none"
+    },
+    {
+      "check": "version DOI metadata",
+      "passed": true,
+      "detail": "10.5281/zenodo.22340814 (reserved during package preparation)"
     },
     {
       "check": "main figure count",
@@ -46,6 +66,11 @@
       "check": "random seed",
       "passed": true,
       "detail": "20260901"
+    },
+    {
+      "check": "orthology bootstrap seed",
+      "passed": true,
+      "detail": "20260904; 2000 resamples, as used by the original S15 analysis"
     },
     {
       "check": "selected Figure 4 background",
@@ -93,6 +118,11 @@
       "detail": "n=7705, rho=0.186806"
     },
     {
+      "check": "concordance recomputed from frozen gene effects",
+      "passed": true,
+      "detail": "all four counts, correlations and direction fractions match"
+    },
+    {
       "check": "MERFISH paired composition",
       "passed": true,
       "detail": "5 of 5, P=0.0625"
@@ -121,6 +151,26 @@
       "check": "main figures embedded in manuscript",
       "passed": true,
       "detail": "all five PNG hashes found in the DOCX media"
+    },
+    {
+      "check": "scientific files preserved",
+      "passed": true,
+      "detail": "96 result, figure-source, figure and supplementary files are byte-identical to the input package"
+    },
+    {
+      "check": "PNG figure reproduction",
+      "passed": true,
+      "detail": "14 of 14 regenerated PNG files are byte-identical"
+    },
+    {
+      "check": "S15 full numerical reproduction",
+      "passed": true,
+      "detail": "All four rows, including confidence intervals and P values, match using bootstrap seed 20260904"
+    },
+    {
+      "check": "source-table fallback",
+      "passed": true,
+      "detail": "19 bundled CSV tables copied with identical hashes and reused on a second call"
     }
   ]
 }

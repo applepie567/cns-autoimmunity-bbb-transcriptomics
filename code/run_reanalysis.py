@@ -136,20 +136,29 @@ def module_scores_from_gene_by_sample(logexpr: np.ndarray, genes: list[str], mod
 
 def export_source_tables() -> None:
     import openpyxl
+    import shutil
 
     workbook = UPLOAD / "MS_BBB_complete_source_data_tables.xlsx"
+    destination = OUT / "source_tables"
+    destination.mkdir(parents=True, exist_ok=True)
     existing = sorted((OUT / "source_tables").glob("S*.csv"))
     if not workbook.exists():
         if existing:
             print(
-                "Source tables are already present in analysis_results/source_tables; "
+                "Source tables are already present in reconstruction_results/source_tables; "
                 "skipping workbook extraction."
             )
             return
+        bundled = sorted((ROOT / "supplementary_tables").glob("S*.csv"))
+        if bundled:
+            for source in bundled:
+                shutil.copyfile(source, destination / source.name)
+            print("Copied the bundled supplementary CSV tables to reconstruction_results/source_tables.")
+            return
         raise FileNotFoundError(
             "Source tables are unavailable. Keep the repository-provided "
-            "analysis_results/source_tables directory or place "
-            "MS_BBB_complete_source_data_tables.xlsx in upload/."
+            "supplementary_tables directory or place "
+            "MS_BBB_complete_source_data_tables.xlsx in public_data/."
         )
 
     wb = openpyxl.load_workbook(workbook, read_only=True, data_only=True)

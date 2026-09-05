@@ -14,8 +14,9 @@ The manuscript itself is not included in the public reproducibility archive. Its
 * Supplementary figures: Figure S1 to Figure S9
 * Supplementary tables: Table S1 to Table S18
 * Project seed: 20260901
+* S15 focused-set bootstrap seed: 20260904 (2000 resamples); recovered original setting
 * Figure 4: selected light gray background
-* Infection analyses: Supplementary Table S13 only
+* Infection context: source detail tables S11 and S12 and summary table S13; excluded from the main vascular conclusions
 * GWAS analysis: not part of the final results or figure set
 * Functional statement: transcript changes and reduced vascular proliferation do not establish BBB permeability recovery
 
@@ -35,3 +36,9 @@ The manuscript itself is not included in the public reproducibility archive. Its
 * `figures/supplementary/Figure_S7_VEGFA_all_modules.png`  `b0fe6f131d992fb05c18316c07815f274b63797986d02b0c837962084c90a3fd`
 * `figures/supplementary/Figure_S8_published_functional_protein_source_data.png`  `73ac3554646d4fd04839afd861d4092f7fbd09fa7de0268cdeeaae26e325a200`
 * `figures/supplementary/Figure_S9_GSE284005_spatial_validation.png`  `b4939314e1f8b9f8e25e71c239f106ce603dfe060a58dd1e183c3c110d88bac4`
+
+## Archive preparation
+
+The version DOI 10.5281/zenodo.22340814 was reserved on 5 September 2026. This update changes packaging, source-table fallback paths and archive verification. The frozen numerical tables, combined workbook and figure files remain byte-identical to the manuscript-aligned input package. The checksum above identifies the supplied manuscript before its Data Availability paragraph is updated with the published archive DOI.
+
+The supplied manuscript describes the project seed but omits the S15 bootstrap seed exception. Before submission, its statistical reproducibility sentence should specify that seed 20260904 was used for the focused-set bootstrap intervals in the orthology sensitivity analysis. The frozen confidence limits and Figure 4 are preserved.

@@ -6,7 +6,7 @@
 
 Version 2.0.0, frozen on 5 September 2026.
 
-This archive contains the analysis scripts, locked environment, derived intermediate results, figure source data, final figures, Supplementary Tables S1 to S18 and an audit that links reported results to their source tables. The original GEO matrices are not redistributed.
+This archive contains the analysis scripts, version-pinned software specifications, derived intermediate results, figure source data, final figures, Supplementary Tables S1 to S18 and an audit that links reported results to their source tables. The original GEO matrices are not redistributed.
 
 ## Main finding and interpretation boundary
 
@@ -23,26 +23,39 @@ Across three acute EAE cohorts, endothelial immune activation increased and BBB 
 * `figures/BBI_Supplementary_Figures_S1-S9.pdf` contains the merged supplementary figure set.
 * `MANUSCRIPT_ALIGNMENT.md` records the final manuscript checksum and figure checksums.
 * `FREEZE_AUDIT.md` records the manuscript, figure, table and numerical consistency checks.
-* `MANIFEST.sha256` records the checksum of every public file in the archive.
+* `public_data/README.md` lists input locations expected by the reconstruction scripts.
+* `REPRODUCIBILITY.md` describes the verified workflow and the limits of reconstruction from original inputs.
+* `MANIFEST.sha256` records every public file except the manifest itself.
 
 ## Reproduce figures from frozen tables
 
 ```bash
 conda env create -f environment.yml
 conda activate bbi-endothelial-freeze
+python code/verify_submission_freeze.py --check-manifest
 python code/make_submission_figures.py
+python code/run_strict_orthology.py
 python code/verify_submission_freeze.py
 ```
 
-The figure workflow reads only files included in this archive. Raw matrix reconstruction requires downloading the source data listed in `DATA_SOURCES.md` into `public_data`.
+Check the manifest on the downloaded archive before regenerating outputs. Regeneration also creates TIFF exports and rebuilds the supplementary PDF, whose timestamp metadata can change its binary checksum. The figure workflow reads only files included in this archive. Run reconstruction from original inputs in a separate working copy, following `public_data/README.md` and `REPRODUCIBILITY.md`.
 
 ## Statistical units
 
 Animals, donors or independent tissue samples are used as the units for statistical inference. Cells, nuclei, microscopic fields and spatial spots remain nested within their biological samples. Human image level immunohistochemistry and well level electrical resistance data are summarized descriptively when donor or experiment identifiers were unavailable.
 
-## Public release sequence
+## Repository and version DOI
 
-This is the prepublication freeze. After author approval, the contents can be released as version 2.0.0 in the GitHub repository `applepie567/cns-autoimmunity-bbb-transcriptomics`. The GitHub release can then be archived in Zenodo. The version DOI should be added to `CITATION.cff` and the manuscript Data Availability statement only after Zenodo creates the new record.
+* Code repository: https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics
+* Version 2.0.0 DOI: [doi:10.5281/zenodo.22340814](https://doi.org/10.5281/zenodo.22340814)
+* Previous version 1.0.0 DOI: [doi:10.5281/zenodo.22031405](https://doi.org/10.5281/zenodo.22031405)
+* DOI for the version series: [doi:10.5281/zenodo.22031404](https://doi.org/10.5281/zenodo.22031404)
+
+The version 2.0.0 DOI was reserved in an existing Zenodo new-version draft during package preparation on 5 September 2026. Reservation does not constitute publication. Zenodo registers the DOI when that draft is published. Cite the version DOI to identify these particular archived files.
+
+The project seed is 20260901. The focused-set bootstrap intervals in Table S15 use the recovered original seed 20260904 with 2000 resamples, recorded in analysis_parameters.json.
+
+The software archive retains Yuan Feng as its creator, consistent with the preceding software release. The manuscript has its own author list.
 
 ## Licenses
 

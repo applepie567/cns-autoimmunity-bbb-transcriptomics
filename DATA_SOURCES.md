@@ -11,8 +11,8 @@ Original matrices and archives are hosted by NCBI GEO and are not copied into th
 | GSE208747 | Human MS spatial transcriptomics | Exploratory lesion group comparisons and threshold sensitivity |
 | GSE284005 | Human MS targeted MERFISH | Independent paired spatial assessment in five evaluable donors |
 | GSE168202 | Mouse CNS single cell RNA sequencing | Screened and excluded because the brain arm lacks within stage biological replication |
-| GSE163005 | Human cerebrospinal fluid single cell RNA sequencing | Infection context retained only in Supplementary Table S13 |
-| GSE163194 | Human cerebrospinal fluid single cell RNA sequencing | Infection context retained only in Supplementary Table S13 |
+| GSE163005 | Human cerebrospinal fluid single cell RNA sequencing | Supplementary infection context: source details in S11 and S12, summary in S13; excluded from the main vascular conclusions |
+| GSE163194 | Human cerebrospinal fluid single cell RNA sequencing | Supplementary infection context: source details in S11 and S12, summary in S13; excluded from the main vascular conclusions |
 
 Published permeability, vascular, electrical resistance and immunohistochemistry values were reanalyzed from the source files accompanying Shahriar et al. The precise scope and statistical unit for each endpoint are documented in Supplementary Table S14 and in the result tables.
 
