@@ -1,0 +1,21 @@
+{
+  "random_seed": 20260901,
+  "primary_statistical_unit": "animal, donor or independent biological sample",
+  "meta_analysis": "DerSimonian and Laird random effects with modified Knapp Hartung sensitivity intervals",
+  "leave_one_dataset_out": true,
+  "orthology_primary": "uppercase gene symbol matching",
+  "orthology_sensitivity": "HCOP reciprocal one to one pairs supported by Ensembl and NCBI, downloaded 2026-09-04",
+  "GSE284005_minimum_endothelial_cells_per_region": 50,
+  "GSE284005_minimum_module_genes": 4,
+  "GSE284005_minimum_module_coverage": 0.4,
+  "GSE208747_endothelial_rich_primary_quantile": 0.3,
+  "GSE208747_endothelial_rich_sensitivity_quantiles": [
+    0.2,
+    0.4
+  ],
+  "Figure_4_background": {
+    "color": "#BFC4C8",
+    "alpha": 0.48,
+    "point_size": 2.1
+  }
+}

@@ -1,31 +1,19 @@
 # Public input data and dataset roles
 
-The original matrices and archives are hosted by NCBI GEO and are not copied
-into this repository. The repository contains newly computed outputs and frozen
-source-to-figure tables needed to audit the manuscript.
+Original matrices and archives are hosted by NCBI GEO and are not copied into this release.
 
-| GEO accession | Organism / modality | Role in this study |
-|---|---|---|
-| [GSE210776](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE210776) | Mouse endothelial single-cell transcriptomics | Acute EAE reference state and VEGF-A perturbation |
-| [GSE199460](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199460) | Mouse single-cell transcriptomics | Independent endothelial support and exploratory sender analysis |
-| [GSE95401](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95401) | Mouse CNS endothelial bulk RNA-seq | Temporal directionality support |
-| [GSE279183](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279183) | Human MS single-nucleus and spatial transcriptomics | Human vascular-niche validation and partial raw spatial audit |
-| [GSE208747](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208747) | Human MS Visium spatial transcriptomics | Independent lesion-stage and threshold-sensitivity analysis |
-| [GSE163005](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163005) | Human CSF single-cell transcriptomics | Viral-encephalitis specificity comparator |
-| [GSE163194](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163194) | Human CSF single-cell transcriptomics | Bacterial-meningitis specificity comparator |
+| GEO accession | Organism and modality | Final manuscript role |
+| --- | --- | --- |
+| GSE210776 | Mouse CNS endothelial single cell RNA sequencing | Acute EAE cohort and VEGF A transcript analysis |
+| GSE199460 | Mouse single cell RNA sequencing | Independent acute EAE endothelial cohort and venous sensitivity analysis |
+| GSE95401 | Mouse CNS endothelial bulk RNA sequencing | Acute EAE cohort and descriptive stage comparison |
+| GSE279183 | Human MS single nucleus and spatial transcriptomics | Donor level endothelial effects and local inflammatory vascular regions |
+| GSE208747 | Human MS spatial transcriptomics | Exploratory lesion group comparisons and threshold sensitivity |
+| GSE284005 | Human MS targeted MERFISH | Independent paired spatial assessment in five evaluable donors |
+| GSE168202 | Mouse CNS single cell RNA sequencing | Screened and excluded because the brain arm lacks within stage biological replication |
+| GSE163005 | Human cerebrospinal fluid single cell RNA sequencing | Infection context retained only in Supplementary Table S13 |
+| GSE163194 | Human cerebrospinal fluid single cell RNA sequencing | Infection context retained only in Supplementary Table S13 |
 
-## Input policy
+Published permeability, vascular, electrical resistance and immunohistochemistry values were reanalyzed from the source files accompanying Shahriar et al. The precise scope and statistical unit for each endpoint are documented in Supplementary Table S14 and in the result tables.
 
-- Keep public GEO inputs in the ignored local directory `upload/`.
-- Do not commit human-level raw matrices, archives, histology images, or GEO
-  supplementary files to this repository.
-- The complete filename manifest and dataset-specific sample mapping are recorded
-  in the manuscript, supplementary methods, and `analysis_results/`.
-- Cells and spatial spots are not treated as independent biological replicates.
-
-## Derived outputs
-
-The reconstructed QC, sample-level summaries, module scores, statistical
-contrasts, and direction-audit tables were generated for this study. Their
-licensing and the boundary for third-party source-provided values are described
-in `LICENSE-DATA.md`.
+Place downloaded source files under `public_data` using the directory names expected by the scripts. Do not commit raw human matrices, histology images or source study archives to the public repository.

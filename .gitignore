@@ -1,12 +1,6 @@
-# Downloaded public inputs are intentionally not versioned.
-upload/
-
-# Local environments and caches.
-.venv/
+public_data/*
+!public_data/README.md
+reconstruction_results/
 __pycache__/
-*.py[cod]
-.DS_Store
-
-# Regenerated submission figures and temporary files.
-outputs/
-*.tmp
+*.pyc
+*.tmp.*

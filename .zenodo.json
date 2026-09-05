@@ -1,0 +1,27 @@
+{
+  "title": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis",
+  "upload_type": "software",
+  "description": "Versioned analysis code, derived results, figure source data and supplementary tables for the associated BBI manuscript.",
+  "creators": [
+    {
+      "name": "Feng, Yuan",
+      "orcid": "0000-0002-1839-1316"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "blood brain barrier",
+    "multiple sclerosis",
+    "experimental autoimmune encephalomyelitis",
+    "endothelial transcriptomics"
+  ],
+  "version": "2.0.0",
+  "publication_date": "2026-09-05",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

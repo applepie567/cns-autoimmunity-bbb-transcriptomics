@@ -1,7 +1,7 @@
 # Data and metadata license
 
 Unless otherwise stated below, the newly generated derived tables and
-reproducibility metadata in `analysis_results/` are licensed under the
+reproducibility metadata in `results/` are licensed under the
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 (CC BY 4.0), with attribution to Yuan Feng.
 
@@ -11,7 +11,7 @@ the GEO accessions listed in `README.md` and remain subject to the terms,
 notices, and attribution requirements of their originating repositories and
 publications. Original GEO files are intentionally not redistributed here.
 
-The `analysis_results/source_tables/` directory contains frozen values needed
+The `supplementary_tables/` directory contains frozen values needed
 to trace manuscript panels to the cited public studies. Those source-provided
 values retain their original terms; only the added organization, audit fields,
 and newly computed summaries are offered under CC BY 4.0.

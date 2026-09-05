@@ -1,25 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this code or the derived results, please cite DOI 10.5281/zenodo.22031405 and the associated manuscript."
+message: "Please cite the associated manuscript and the versioned archive for this release."
 type: software
-title: "Cross-species single-cell and spatial transcriptomic analysis of blood-brain barrier remodeling in CNS autoimmunity"
+title: "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis"
 authors:
   - family-names: Feng
     given-names: Yuan
     orcid: "https://orcid.org/0000-0002-1839-1316"
-version: 1.0.0
-date-released: 2026-08-20
-doi: "10.5281/zenodo.22031405"
-url: "https://doi.org/10.5281/zenodo.22031405"
+version: "2.0.0"
+date-released: "2026-09-05"
 repository-code: "https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics"
 license: MIT
 keywords:
-  - blood-brain barrier
+  - blood brain barrier
   - multiple sclerosis
   - experimental autoimmune encephalomyelitis
-  - single-cell transcriptomics
+  - endothelial transcriptomics
   - spatial transcriptomics
-  - reproducible bioinformatics
 abstract: >-
-  Deterministic analysis code and derived result tables for an original
-  cross-species, accession-level computational study of context-dependent
-  blood-brain barrier remodeling in central nervous system autoimmunity.
+  Reproducibility package for biological sample level analysis of brain
+  endothelial responses in acute EAE and human multiple sclerosis.

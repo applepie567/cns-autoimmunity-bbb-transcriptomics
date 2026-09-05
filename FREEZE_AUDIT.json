@@ -1,0 +1,126 @@
+{
+  "title": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis",
+  "version": "2.0.0",
+  "freeze_date": "2026-09-05",
+  "status": "PASS",
+  "manuscript_sha256": "14624b7c54e43292970310b8a763e872581d9d9edf7f3ca0b20c704a1da8083e",
+  "main_figures": 5,
+  "supplementary_figures": 9,
+  "supplementary_tables": "S1 to S18",
+  "combined_workbook_sheets": 20,
+  "supplementary_pdf_pages": 9,
+  "figure_reproduction": "All five main figures and all nine supplementary figures regenerated with byte identical PNG hashes",
+  "zenodo_doi": "Pending creation of the version 2.0.0 archive. No future DOI is claimed in this freeze.",
+  "checks": [
+    {
+      "check": "required files",
+      "passed": true,
+      "detail": "all required files present"
+    },
+    {
+      "check": "main figure count",
+      "passed": true,
+      "detail": "found 5"
+    },
+    {
+      "check": "supplementary figure count",
+      "passed": true,
+      "detail": "found 9"
+    },
+    {
+      "check": "supplementary tables S1 to S18",
+      "passed": true,
+      "detail": "represented tables: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]"
+    },
+    {
+      "check": "combined workbook sheets",
+      "passed": true,
+      "detail": "found 20 sheets"
+    },
+    {
+      "check": "workbook formula errors",
+      "passed": true,
+      "detail": "none"
+    },
+    {
+      "check": "random seed",
+      "passed": true,
+      "detail": "20260901"
+    },
+    {
+      "check": "selected Figure 4 background",
+      "passed": true,
+      "detail": "light gray settings present"
+    },
+    {
+      "check": "stale artifact filenames",
+      "passed": true,
+      "detail": "none"
+    },
+    {
+      "check": "obsolete random seed",
+      "passed": true,
+      "detail": "none"
+    },
+    {
+      "check": "acute EAE pooled immune effect",
+      "passed": true,
+      "detail": "2.596911"
+    },
+    {
+      "check": "acute EAE pooled BBB effect",
+      "passed": true,
+      "detail": "-1.790610"
+    },
+    {
+      "check": "modified Knapp Hartung intervals cross zero",
+      "passed": true,
+      "detail": "both principal intervals cross zero"
+    },
+    {
+      "check": "cross species all gene result",
+      "passed": true,
+      "detail": "n=11633, rho=0.197211"
+    },
+    {
+      "check": "cross species focused result",
+      "passed": true,
+      "detail": "n=43, rho=0.243431"
+    },
+    {
+      "check": "strict orthology all gene result",
+      "passed": true,
+      "detail": "n=7705, rho=0.186806"
+    },
+    {
+      "check": "MERFISH paired composition",
+      "passed": true,
+      "detail": "5 of 5, P=0.0625"
+    },
+    {
+      "check": "IgG leakage result",
+      "passed": true,
+      "detail": "P=0.373385"
+    },
+    {
+      "check": "fibrinogen leakage result",
+      "passed": true,
+      "detail": "P=0.913945"
+    },
+    {
+      "check": "figure source index",
+      "passed": true,
+      "detail": "39 mappings verified"
+    },
+    {
+      "check": "manuscript title",
+      "passed": true,
+      "detail": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis"
+    },
+    {
+      "check": "main figures embedded in manuscript",
+      "passed": true,
+      "detail": "all five PNG hashes found in the DOCX media"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+component,version_or_setting,status_or_role
+Python,3.12.13,verified in the freeze runtime
+NumPy,2.3.5,verified in the freeze runtime
+pandas,2.2.3,verified in the freeze runtime
+SciPy,1.17.0,verified in the freeze runtime
+Matplotlib,3.10.8,verified in the freeze runtime
+Pillow,12.3.0,verified in the freeze runtime
+openpyxl,3.1.5,verified in the freeze runtime
+ReportLab,4.4.9,verified in the freeze runtime
+h5py,3.15.1,locked requirement for raw HDF5 input reconstruction
+Random seed,20260901,used for bootstrap and figure jitter
+Exact permutation mode,fully enumerated,deterministic when reported
+Multiple testing,Benjamini Hochberg,false discovery rate control
