@@ -1,0 +1,99 @@
+Dataset,Analysis subset,Module,Expected genes,Measured genes,Coverage fraction,Measured gene symbols,Use in scoring,Note
+GSE210776,All endothelial cells (animal pseudobulk),Endothelial_immune_activation,20,18,0.9,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; H2-AA; H2-AB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),BBB_specialization,14,13,0.9285714285714286,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),Structural_ECM_remodeling,15,15,1,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),Tight_junction,4,4,1,CLDN5; OCLN; TJP1; LSR,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),BBB_transport_identity,4,3,0.75,MFSD2A; SLC2A1; ABCG2,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),Caveolae_structural,3,3,1,CAV1; CAV2; EHD2,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),PLVAP_permeability,4,4,1,PLVAP; ESM1; APLN; ANGPT2,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),Adhesion_trafficking,6,6,1,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),IFN_antigen_presentation,14,12,0.8571428571428571,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; H2-AA; H2-AB1; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),Wnt_BBB,6,6,1,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),TGF_response,8,8,1,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),VEGF_response,6,6,1,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),ROS_Src,7,7,1,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Scored,
+GSE210776,All endothelial cells (animal pseudobulk),ECM_protease,4,4,1,MMP2; MMP9; TIMP1; TIMP2,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),Endothelial_immune_activation,20,18,0.9,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; H2-AA; H2-AB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),BBB_specialization,14,13,0.9285714285714286,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),Structural_ECM_remodeling,15,15,1,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),Tight_junction,4,4,1,CLDN5; OCLN; TJP1; LSR,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),BBB_transport_identity,4,3,0.75,MFSD2A; SLC2A1; ABCG2,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),Caveolae_structural,3,3,1,CAV1; CAV2; EHD2,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),PLVAP_permeability,4,4,1,PLVAP; ESM1; APLN; ANGPT2,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),Adhesion_trafficking,6,6,1,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),IFN_antigen_presentation,14,12,0.8571428571428571,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; H2-AA; H2-AB1; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),Wnt_BBB,6,6,1,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),TGF_response,8,8,1,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),VEGF_response,6,6,1,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),ROS_Src,7,7,1,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Scored,
+GSE199460,All endothelial cells (animal pseudobulk),ECM_protease,4,4,1,MMP2; MMP9; TIMP1; TIMP2,Scored,
+GSE199460,Venous-like sensitivity subset,Endothelial_immune_activation,20,18,0.9,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; H2-AA; H2-AB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,BBB_specialization,14,13,0.9285714285714286,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,Structural_ECM_remodeling,15,15,1,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,Tight_junction,4,4,1,CLDN5; OCLN; TJP1; LSR,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,BBB_transport_identity,4,3,0.75,MFSD2A; SLC2A1; ABCG2,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,Caveolae_structural,3,3,1,CAV1; CAV2; EHD2,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,PLVAP_permeability,4,4,1,PLVAP; ESM1; APLN; ANGPT2,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,Adhesion_trafficking,6,6,1,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,IFN_antigen_presentation,14,12,0.8571428571428571,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; H2-AA; H2-AB1; IFIT1; IFIT2; IFIT3; ISG15,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,Wnt_BBB,6,6,1,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,TGF_response,8,8,1,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,VEGF_response,6,6,1,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,ROS_Src,7,7,1,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Scored,Sensitivity analysis only
+GSE199460,Venous-like sensitivity subset,ECM_protease,4,4,1,MMP2; MMP9; TIMP1; TIMP2,Scored,Sensitivity analysis only
+GSE95401,FACS-enriched endothelial bulk samples,Endothelial_immune_activation,20,18,0.9,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; H2-AA; H2-AB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,BBB_specialization,14,12,0.8571428571428571,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; LEF1; AXIN2; APCDD1; RECK; TCF7L2,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,Structural_ECM_remodeling,15,15,1,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,Tight_junction,4,4,1,CLDN5; OCLN; TJP1; LSR,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,BBB_transport_identity,4,3,0.75,MFSD2A; SLC2A1; ABCG2,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,Caveolae_structural,3,3,1,CAV1; CAV2; EHD2,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,PLVAP_permeability,4,4,1,PLVAP; ESM1; APLN; ANGPT2,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,Adhesion_trafficking,6,6,1,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,IFN_antigen_presentation,14,12,0.8571428571428571,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; H2-AA; H2-AB1; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,Wnt_BBB,6,5,0.8333333333333334,LEF1; AXIN2; APCDD1; RECK; TCF7L2,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,TGF_response,8,8,1,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,VEGF_response,6,6,1,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,ROS_Src,7,7,1,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Scored,
+GSE95401,FACS-enriched endothelial bulk samples,ECM_protease,4,4,1,MMP2; MMP9; TIMP1; TIMP2,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),Endothelial_immune_activation,20,18,0.9,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; HLA-DRA; HLA-DRB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),BBB_specialization,14,14,1,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; ABCB1; LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),Structural_ECM_remodeling,15,15,1,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),Tight_junction,4,4,1,CLDN5; OCLN; TJP1; LSR,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),BBB_transport_identity,4,4,1,MFSD2A; SLC2A1; ABCG2; ABCB1,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),Caveolae_structural,3,3,1,CAV1; CAV2; EHD2,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),PLVAP_permeability,4,4,1,PLVAP; ESM1; APLN; ANGPT2,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),Adhesion_trafficking,6,6,1,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),IFN_antigen_presentation,14,12,0.8571428571428571,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; HLA-DRA; HLA-DRB1; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),Wnt_BBB,6,6,1,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),TGF_response,8,7,0.875,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),VEGF_response,6,6,1,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),ROS_Src,7,7,1,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Scored,
+GSE279183,Endothelial nuclei (donor pseudobulk),ECM_protease,4,4,1,MMP2; MMP9; TIMP1; TIMP2,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),Endothelial_immune_activation,20,18,0.9,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; HLA-DRA; HLA-DRB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),BBB_specialization,14,14,1,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; ABCB1; LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),Structural_ECM_remodeling,15,15,1,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),Tight_junction,4,4,1,CLDN5; OCLN; TJP1; LSR,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),BBB_transport_identity,4,4,1,MFSD2A; SLC2A1; ABCG2; ABCB1,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),Caveolae_structural,3,3,1,CAV1; CAV2; EHD2,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),PLVAP_permeability,4,4,1,PLVAP; ESM1; APLN; ANGPT2,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),Adhesion_trafficking,6,6,1,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),IFN_antigen_presentation,14,12,0.8571428571428571,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; HLA-DRA; HLA-DRB1; IFIT1; IFIT2; IFIT3; ISG15,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),Wnt_BBB,6,6,1,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),TGF_response,8,8,1,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),VEGF_response,6,6,1,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),ROS_Src,7,7,1,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Scored,
+GSE208747,Endothelial-rich spatial spots (donor summary),ECM_protease,4,4,1,MMP2; MMP9; TIMP1; TIMP2,Scored,
+GSE284005,Targeted endothelial MERFISH (paired donor regions),Endothelial_immune_activation,20,13,0.65,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; HLA-DRA; HLA-DRB1; ICAM1; VCAM1; IFIT1; ISG15,Scored,Met the prespecified threshold: at least four genes and at least 40% coverage
+GSE284005,Targeted endothelial MERFISH (paired donor regions),BBB_specialization,14,1,0.07142857142857142,CLDN5,Single gene only,CLDN5 was reported separately; no composite BBB score was calculated
+GSE284005,Targeted endothelial MERFISH (paired donor regions),Structural_ECM_remodeling,15,2,0.13333333333333333,TIMP1; VIM,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),Tight_junction,4,1,0.25,CLDN5,Single gene only,CLDN5 was reported separately; no composite BBB score was calculated
+GSE284005,Targeted endothelial MERFISH (paired donor regions),BBB_transport_identity,4,0,0,,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),Caveolae_structural,3,0,0,,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),PLVAP_permeability,4,0,0,,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),Adhesion_trafficking,6,4,0.6666666666666666,ICAM1; VCAM1; CCL2; CXCL10,Scored,Met the prespecified threshold: at least four genes and at least 40% coverage
+GSE284005,Targeted endothelial MERFISH (paired donor regions),IFN_antigen_presentation,12,9,0.75,STAT1; IRF1; CXCL9; CXCL10; B2M; HLA-DRA; HLA-DRB1; IFIT1; ISG15,Scored,Met the prespecified threshold: at least four genes and at least 40% coverage
+GSE284005,Targeted endothelial MERFISH (paired donor regions),Wnt_BBB,6,0,0,,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),TGF_response,8,3,0.375,TGFBR1; TGFBR2; SERPINE1,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),VEGF_response,6,1,0.16666666666666666,FLT1,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),ROS_Src,7,1,0.14285714285714285,HIF1A,Not scored,Targeted-panel coverage was below the prespecified scoring rule
+GSE284005,Targeted endothelial MERFISH (paired donor regions),ECM_protease,4,1,0.25,TIMP1,Not scored,Targeted-panel coverage was below the prespecified scoring rule

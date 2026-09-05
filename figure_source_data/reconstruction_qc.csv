@@ -1,0 +1,86 @@
+dataset,sample_id,group,raw_barcodes,barcodes_after_qc,endothelial_cells,selection_rule,total_UMI,orig.ident,condition,cell_types,cells,total_count,tissue,donor,nuclei_total,nuclei_qc,endothelial_nuclei,median_UMI_selected,spots_under_tissue,spots_after_qc,EC_rich_spots_q30,EC_score_cutoff
+GSE210776,DS001,CFA,6794880.0,4086.0,3902.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,27348914.0,,,,,,,,,,,,,,,
+GSE210776,DS002,Acute,6794880.0,4116.0,2595.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,24166608.0,,,,,,,,,,,,,,,
+GSE210776,DS003,Chronic,6794880.0,8422.0,6041.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,28531757.0,,,,,,,,,,,,,,,
+GSE210776,DS004,CFA,6794880.0,5757.0,5288.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,30532976.0,,,,,,,,,,,,,,,
+GSE210776,DS005,Acute,6794880.0,9168.0,6274.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,33048476.0,,,,,,,,,,,,,,,
+GSE210776,DS006,Chronic,6794880.0,4978.0,3200.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,25468965.0,,,,,,,,,,,,,,,
+GSE210776,DS007,Healthy,6794880.0,5456.0,5166.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,31503681.0,,,,,,,,,,,,,,,
+GSE210776,DS008,Healthy,6794880.0,3697.0,3538.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,21765497.0,,,,,,,,,,,,,,,
+GSE210776,DS009,Chronic,6794880.0,5681.0,5237.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,40213671.0,,,,,,,,,,,,,,,
+GSE210776,DS010,Chronic,6794880.0,5744.0,4958.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,45163623.0,,,,,,,,,,,,,,,
+GSE210776,DS011,Acute,6794880.0,4519.0,2415.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,23148268.0,,,,,,,,,,,,,,,
+GSE210776,DS012,Acute,6794880.0,4054.0,2310.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,20312829.0,,,,,,,,,,,,,,,
+GSE210776,DS013,Healthy,6794880.0,5750.0,5504.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,32612339.0,,,,,,,,,,,,,,,
+GSE210776,DS014,CFA,6794880.0,4989.0,4425.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,29257242.0,,,,,,,,,,,,,,,
+GSE210776,BEVAC001,Bevacizumab,6794880.0,6206.0,5477.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,50109182.0,,,,,,,,,,,,,,,
+GSE210776,BEVAC002,Bevacizumab,6794880.0,6956.0,6327.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,55337889.0,,,,,,,,,,,,,,,
+GSE210776,BEVAC003,Bevacizumab,6794880.0,5843.0,4921.0,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,51953922.0,,,,,,,,,,,,,,,
+GSE199460,,,,,,,,CTL1,C,arterial,477.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL1,C,cap arterial,741.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL1,C,cap venous,2503.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL1,C,interferon,550.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL1,C,venous,186.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL2,C,arterial,742.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL2,C,cap arterial,1428.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL2,C,cap venous,5819.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL2,C,interferon,673.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL2,C,venous,287.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL3,C,arterial,563.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL3,C,cap arterial,1084.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL3,C,cap venous,4766.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL3,C,interferon,659.0,,,,,,,,,,,
+GSE199460,,,,,,,,CTL3,C,venous,270.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE1,E,arterial,416.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE1,E,cap arterial,552.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE1,E,cap venous,2035.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE1,E,interferon,538.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE1,E,venous,311.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE3,E,arterial,252.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE3,E,cap arterial,376.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE3,E,cap venous,2000.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE3,E,interferon,374.0,,,,,,,,,,,
+GSE199460,,,,,,,,EAE3,E,venous,318.0,,,,,,,,,,,
+GSE95401,EAE_Control1,Control,,,,,,,,,,999999.999999964,,,,,,,,,,
+GSE95401,EAE_Control2,Control,,,,,,,,,,999999.9999999824,,,,,,,,,,
+GSE95401,EAE_Control3,Control,,,,,,,,,,999999.9999999697,,,,,,,,,,
+GSE95401,EAE_Acute1,Acute,,,,,,,,,,999999.9999999821,,,,,,,,,,
+GSE95401,EAE_Acute2,Acute,,,,,,,,,,1000000.0000000059,,,,,,,,,,
+GSE95401,EAE_Acute3,Acute,,,,,,,,,,999999.9999999942,,,,,,,,,,
+GSE95401,EAE_Subacute1,Subacute,,,,,,,,,,1000000.000000023,,,,,,,,,,
+GSE95401,EAE_Subacute2,Subacute,,,,,,,,,,999999.9999999946,,,,,,,,,,
+GSE95401,EAE_Subacute3,Subacute,,,,,,,,,,999999.9999999796,,,,,,,,,,
+GSE95401,EAE_Chronic1,Chronic,,,,,,,,,,999999.9999999717,,,,,,,,,,
+GSE95401,EAE_Chronic2,Chronic,,,,,,,,,,999999.9999999618,,,,,,,,,,
+GSE95401,EAE_Chronic3,Chronic,,,,,,,,,,1000000.0000000222,,,,,,,,,,
+GSE279183,,Control,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,CO37,CO37,9016.0,9016.0,35.0,7360.0,,,,
+GSE279183,,Control,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,CO40,CO40,8490.0,8490.0,29.0,3247.0,,,,
+GSE279183,,Control,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,CO41,CO41,3617.0,3617.0,118.0,3206.5,,,,
+GSE279183,,Control,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,CO45,CO45,8017.0,8017.0,303.0,6129.0,,,,
+GSE279183,,Control,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,CO74,CO74,3505.0,3505.0,35.0,2990.0,,,,
+GSE279183,,Control,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,CO85,CO85,3649.0,3649.0,40.0,2622.0,,,,
+GSE279183,,Chronic_active,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS197D,MS197,16262.0,16262.0,384.0,7168.0,,,,
+GSE279183,,Chronic_active,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS229,MS229,6392.0,6391.0,172.0,6103.0,,,,
+GSE279183,,Chronic_active,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS377N,MS377,8666.0,8666.0,179.0,8045.0,,,,
+GSE279183,,Chronic_active,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS377T,MS377,9279.0,9279.0,202.0,7818.5,,,,
+GSE279183,,Chronic_active,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS377I,MS377,9574.0,9573.0,333.0,7678.0,,,,
+GSE279183,,Chronic_active,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS411,MS411,8886.0,8886.0,103.0,4680.0,,,,
+GSE279183,,Chronic_inactive,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS497I,MS497,4897.0,4897.0,81.0,12482.0,,,,
+GSE279183,,Chronic_inactive,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS497T,MS497,8942.0,8941.0,245.0,5600.0,,,,
+GSE279183,,Chronic_inactive,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS549H,MS549,17849.0,17849.0,235.0,4343.0,,,,
+GSE279183,,Chronic_inactive,,,,EC_hits>=2_and_EC_score>contaminant,,,,,,,MS549T,MS549,7077.0,7077.0,30.0,10764.0,,,,
+GSE208747,A1,Active,,,,,,,,,,,,Active_1,,,,,2961.0,2383.0,715.0,0.1695183271126926
+GSE208747,A2,Active,,,,,,,,,,,,Active_2,,,,,4789.0,4759.0,1429.0,0.16736920883638728
+GSE208747,A3,Active,,,,,,,,,,,,Active_1,,,,,3627.0,3565.0,1071.0,0.16292094132001483
+GSE208747,A4,Active,,,,,,,,,,,,Active_3,,,,,4729.0,4692.0,1408.0,0.25541215132680256
+GSE208747,C1,Control,,,,,,,,,,,,Control_1,,,,,3550.0,2967.0,890.0,0.20083187733949212
+GSE208747,C2,Control,,,,,,,,,,,,Control_2,,,,,3067.0,3004.0,901.0,0.17815033032935973
+GSE208747,M1,Mixed_active_inactive,,,,,,,,,,,,Mixed_1,,,,,4208.0,3221.0,967.0,0.1974906037432315
+GSE208747,M2,Mixed_active_inactive,,,,,,,,,,,,Mixed_2,,,,,3649.0,3524.0,1057.0,0.17405293895353857
+GSE208747,M3,Mixed_active_inactive,,,,,,,,,,,,Mixed_3,,,,,3657.0,3640.0,1092.0,0.21505707975039096
+GSE208747,M4,Mixed_active_inactive,,,,,,,,,,,,Mixed_4,,,,,4702.0,2869.0,861.0,0.1870818389789441
+GSE208747,M5,Mixed_active_inactive,,,,,,,,,,,,Mixed_5,,,,,4895.0,4433.0,1330.0,0.2152911800980095
+GSE208747,M6,Mixed_active_inactive,,,,,,,,,,,,Mixed_6,,,,,3751.0,3033.0,910.0,0.16383866605042557
+GSE208747,N1,NAWM,,,,,,,,,,,,NAWM_1,,,,,4284.0,3152.0,946.0,0.19320049348041812
+GSE208747,N2,NAWM,,,,,,,,,,,,NAWM_2,,,,,4436.0,3308.0,994.0,0.19277288073469756
+GSE208747,N3,NAWM,,,,,,,,,,,,NAWM_3,,,,,3797.0,1696.0,509.0,0.18236540151710878

@@ -1,0 +1,31 @@
+donor,region,module,score
+ms11r1,DMWM,Endothelial immune activation,-0.03669040774241356
+ms11r1,Vas_Imm,Endothelial immune activation,-0.05854796778382283
+ms1r1,DMWM,Endothelial immune activation,0.6529400827808577
+ms1r1,Vas_Imm,Endothelial immune activation,0.9520275977214082
+ms1r2,DMWM,Endothelial immune activation,0.4722841163668716
+ms1r2,Vas_Imm,Endothelial immune activation,0.23898259845321637
+ms4r2,DMWM,Endothelial immune activation,-0.83663150540041
+ms4r2,Vas_Imm,Endothelial immune activation,-0.6474234759193133
+ms6r0,DMWM,Endothelial immune activation,0.016776531731227735
+ms6r0,Vas_Imm,Endothelial immune activation,-0.7537175702076211
+ms11r1,DMWM,Adhesion and trafficking,-0.24261947928630953
+ms11r1,Vas_Imm,Adhesion and trafficking,0.811572702802324
+ms1r1,DMWM,Adhesion and trafficking,0.27677736952144977
+ms1r1,Vas_Imm,Adhesion and trafficking,0.7713226896919277
+ms1r2,DMWM,Adhesion and trafficking,0.3837281860065824
+ms1r2,Vas_Imm,Adhesion and trafficking,0.051919742771992405
+ms4r2,DMWM,Adhesion and trafficking,-0.32512746540870235
+ms4r2,Vas_Imm,Adhesion and trafficking,-0.4062334643355109
+ms6r0,DMWM,Adhesion and trafficking,-0.21869300946473397
+ms6r0,Vas_Imm,Adhesion and trafficking,-1.102647272299016
+ms11r1,DMWM,IFN and antigen presentation,0.11671693409462784
+ms11r1,Vas_Imm,IFN and antigen presentation,-0.3530860705026536
+ms1r1,DMWM,IFN and antigen presentation,0.9362144892643579
+ms1r1,Vas_Imm,IFN and antigen presentation,1.1096044290312115
+ms1r2,DMWM,IFN and antigen presentation,0.5193095750653409
+ms1r2,Vas_Imm,IFN and antigen presentation,0.05193377828698003
+ms4r2,DMWM,IFN and antigen presentation,-0.8687266081308262
+ms4r2,Vas_Imm,IFN and antigen presentation,-0.8515779533232108
+ms6r0,DMWM,IFN and antigen presentation,-0.001257792041587161
+ms6r0,Vas_Imm,IFN and antigen presentation,-0.6591307817442411
