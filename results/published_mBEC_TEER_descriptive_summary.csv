@@ -1,0 +1,7 @@
+phase,condition,n_wells,mean,sd,inference_note
+acute drop,Ctrl,8,-8.78605625,2.4748783245065797,Technical-well summary; experiment-level replicate values were unavailable
+acute drop,VEGFa + IgG,7,-23.98047142857143,0.878546755944697,Technical-well summary; experiment-level replicate values were unavailable
+acute drop,VEGFa + r84,8,-20.12115615625,2.3975227660828025,Technical-well summary; experiment-level replicate values were unavailable
+chronic drop,Ctrl,8,-15.97865,2.3122176182802767,Technical-well summary; experiment-level replicate values were unavailable
+chronic drop,VEGFa + IgG,7,-27.70787142857143,1.800789506220615,Technical-well summary; experiment-level replicate values were unavailable
+chronic drop,VEGFa + r84,8,-21.47173343625,1.828559630969026,Technical-well summary; experiment-level replicate values were unavailable

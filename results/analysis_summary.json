@@ -1,0 +1,24 @@
+{
+  "title": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis",
+  "version": "2.0.0",
+  "freeze_date": "2026-09-05",
+  "random_seed": 20260901,
+  "primary_statistical_unit": "animal, donor or independent biological sample",
+  "acute_EAE_meta_analysis_cohorts": [
+    "GSE210776",
+    "GSE199460",
+    "GSE95401"
+  ],
+  "human_MS_main_datasets": [
+    "GSE279183",
+    "GSE208747",
+    "GSE284005"
+  ],
+  "cross_species_primary_comparison": "pooled acute EAE gene effects compared with donor level chronic active MS gene effects",
+  "meta_analysis_boundary": "modified Knapp Hartung intervals cross zero because only three cohorts were available",
+  "lesion_stage_boundary": "cross sectional comparisons are exploratory and no comparison survived false discovery rate correction",
+  "MERFISH_boundary": "the targeted panel supports selected inflammatory programs but not a composite BBB specialization score",
+  "infection_boundary": "infection datasets are retained as Supplementary Table S13 and excluded from the main vascular conclusions",
+  "functional_boundary": "transcript changes and reduced vascular proliferation do not establish recovery of BBB permeability",
+  "GWAS_status": "not included in the final manuscript analysis"
+}
