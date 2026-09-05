@@ -1,0 +1,15 @@
+Module,Level,Expected genes,Prespecified genes,Biological interpretation
+Endothelial_immune_activation,Broad program,20,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; TAP1; HLA-DRA; HLA-DRB1; H2-AA; H2-AB1; ICAM1; VCAM1; SELE; SELP; IFIT1; IFIT2; IFIT3; ISG15,Broad endothelial immune-response program
+BBB_specialization,Broad program,14,CLDN5; OCLN; TJP1; LSR; MFSD2A; SLC2A1; ABCG2; ABCB1; LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,"Broad junctional, transport and Wnt-associated BBB identity program"
+Structural_ECM_remodeling,Broad program,15,CAV1; CAV2; EHD2; PLVAP; MMP2; MMP9; TIMP1; TIMP2; COL4A1; COL4A2; FN1; LAMA4; LAMB1; SPARC; VIM,Broad vascular structure and extracellular-matrix remodeling program
+Tight_junction,Focused program,4,CLDN5; OCLN; TJP1; LSR,Paracellular barrier specialization
+BBB_transport_identity,Focused program,4,MFSD2A; SLC2A1; ABCG2; ABCB1,CNS endothelial transport identity
+Caveolae_structural,Focused program,3,CAV1; CAV2; EHD2,Caveolar structural machinery
+PLVAP_permeability,Focused program,4,PLVAP; ESM1; APLN; ANGPT2,Permeability/angiogenic remodeling
+Adhesion_trafficking,Focused program,6,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Leukocyte adhesion and trafficking
+IFN_antigen_presentation,Focused program,14,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; HLA-DRA; HLA-DRB1; H2-AA; H2-AB1; IFIT1; IFIT2; IFIT3; ISG15,IFN/MHC immune-interacting state
+Wnt_BBB,Focused program,6,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Wnt-associated BBB specialization
+TGF_response,Focused program,8,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,TGF-associated remodeling response
+VEGF_response,Focused program,6,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,VEGF/angiogenic response
+ROS_Src,Focused program,7,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Oxidative/Src-related stress signaling
+ECM_protease,Focused program,4,MMP2; MMP9; TIMP1; TIMP2,Extracellular-matrix/protease remodeling

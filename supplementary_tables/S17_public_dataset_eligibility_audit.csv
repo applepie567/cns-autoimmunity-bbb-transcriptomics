@@ -1,0 +1,3 @@
+dataset,proposed_role,eligibility_decision,reason
+GSE168202,fourth EAE endothelial meta-analysis cohort,excluded,"brain parenchyma has one library at each of naive, onset and peak stages; no biological replication for a brain endothelial disease effect"
+GSE284005,independent spatial MS validation,included with restricted scope,paired donor-level Vas_Imm versus DMWM analysis was feasible in five MS donors with at least 50 endothelial cells per region; the targeted panel supports inflammatory modules but not a composite BBB module

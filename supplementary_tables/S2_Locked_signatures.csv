@@ -1,0 +1,12 @@
+Module,Genes,Interpretation
+Tight_junction,CLDN5; OCLN; TJP1; LSR,Paracellular barrier specialization
+BBB_transport_identity,MFSD2A; SLC2A1; ABCG2; ABCB1,CNS endothelial transport identity
+Caveolae_structural,CAV1; CAV2; EHD2,Caveolar structural machinery
+PLVAP_permeability,PLVAP; ESM1; APLN; ANGPT2,Permeability/angiogenic remodeling
+Adhesion_trafficking,ICAM1; VCAM1; SELE; SELP; CCL2; CXCL10,Leukocyte adhesion and trafficking
+IFN_antigen_presentation,STAT1; IRF1; CXCL9; CXCL10; B2M; TAP1; HLA-DRA; HLA-DRB1; IFIT1; IFIT2; IFIT3; ISG15,IFN/MHC immune-interacting state
+Wnt_BBB,LEF1; AXIN2; APCDD1; ADGRA2; RECK; TCF7L2,Wnt-associated BBB specialization
+TGF_response,TGFBR1; TGFBR2; SMAD2; SMAD3; SMAD4; SMAD7; SERPINE1; CTGF,TGF-associated remodeling response
+VEGF_response,KDR; FLT1; PGF; ANGPT2; ESM1; APLN,VEGF/angiogenic response
+ROS_Src,SRC; RAC1; NOX4; CYBB; NCF1; NCF2; HIF1A,Oxidative/Src-related stress signaling
+ECM_protease,MMP2; MMP9; TIMP1; TIMP2,Extracellular-matrix/protease remodeling
