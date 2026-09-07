@@ -1,0 +1,47 @@
+phase,condition,well,TEER_change
+acute drop,Ctrl,1,-4.03061
+acute drop,Ctrl,2,-7.42722
+acute drop,Ctrl,3,-9.69733
+acute drop,Ctrl,4,-8.39603
+acute drop,Ctrl,5,-9.77798
+acute drop,Ctrl,6,-11.4374
+acute drop,Ctrl,7,-11.6997
+acute drop,Ctrl,8,-7.82218
+acute drop,VEGFa + IgG,1,-24.372
+acute drop,VEGFa + IgG,2,-24.5393
+acute drop,VEGFa + IgG,3,-24.7575
+acute drop,VEGFa + IgG,4,-24.564
+acute drop,VEGFa + IgG,5,-24.1247
+acute drop,VEGFa + IgG,6,-23.0583
+acute drop,VEGFa + IgG,7,-22.4475
+acute drop,VEGFa + r84,1,-17.1035
+acute drop,VEGFa + r84,2,-19.7203
+acute drop,VEGFa + r84,3,-20.9396
+acute drop,VEGFa + r84,4,-21.5104
+acute drop,VEGFa + r84,5,-21.7782
+acute drop,VEGFa + r84,6,-23.418
+acute drop,VEGFa + r84,7,-20.2181
+acute drop,VEGFa + r84,8,-16.28114925
+chronic drop,Ctrl,1,-11.4979
+chronic drop,Ctrl,2,-13.2867
+chronic drop,Ctrl,3,-17.1902
+chronic drop,Ctrl,4,-17.1967
+chronic drop,Ctrl,5,-16.6769
+chronic drop,Ctrl,6,-18.0859
+chronic drop,Ctrl,7,-16.5327
+chronic drop,Ctrl,8,-17.3622
+chronic drop,VEGFa + IgG,1,-27.0898
+chronic drop,VEGFa + IgG,2,-29.1533
+chronic drop,VEGFa + IgG,3,-28.9945
+chronic drop,VEGFa + IgG,4,-29.0104
+chronic drop,VEGFa + IgG,5,-28.895
+chronic drop,VEGFa + IgG,6,-26.3082
+chronic drop,VEGFa + IgG,7,-24.5039
+chronic drop,VEGFa + r84,1,-19.775
+chronic drop,VEGFa + r84,2,-20.7732
+chronic drop,VEGFa + r84,3,-21.829
+chronic drop,VEGFa + r84,4,-23.4011
+chronic drop,VEGFa + r84,5,-22.8013
+chronic drop,VEGFa + r84,6,-24.0212
+chronic drop,VEGFa + r84,7,-20.2241
+chronic drop,VEGFa + r84,8,-18.94896749

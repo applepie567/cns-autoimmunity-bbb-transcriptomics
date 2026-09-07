@@ -1,0 +1,19 @@
+dataset,contrast,feature,n_donors,mean_paired_difference,median_paired_difference,donors_higher_in_Vas_Imm,exact_two_sided_sign_flip_p,interpretation,genes_expected,genes_measured,coverage_fraction,measured_genes
+GSE284005,endothelial Vas_Imm versus DMWM within donor,Endothelial immune activation,5,-0.10747152709445322,-0.02185756004140927,2,0.6875,prespecified module score,20.0,13.0,0.65,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; HLA-DRA; HLA-DRB1; ICAM1; VCAM1; IFIT1; ISG15
+GSE284005,endothelial Vas_Imm versus DMWM within donor,Adhesion and trafficking,5,0.05037375945268616,-0.08110599892680853,2,0.875,prespecified module score,6.0,4.0,0.6666666666666666,ICAM1; VCAM1; CCL2; CXCL10
+GSE284005,endothelial Vas_Imm versus DMWM within donor,IFN and antigen presentation,5,-0.2809026393007655,-0.4673757967783609,2,0.25,prespecified module score,12.0,9.0,0.75,STAT1; IRF1; CXCL9; CXCL10; B2M; HLA-DRA; HLA-DRB1; IFIT1; ISG15
+GSE284005,endothelial Vas_Imm versus DMWM within donor,B2M,5,-0.20585817500478693,-0.09289919312244788,2,0.4375,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,CCL2,5,0.0998578111240505,1.1870492743868324,3,1.0,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,CLDN5,5,-0.3560408399791079,-0.17566263598926746,1,0.1875,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,CXCL10,5,-0.468196890646899,-0.4393156831365692,1,0.125,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,CXCL9,5,0.3432301133338189,0.0,1,1.0,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,HLA-DRA,5,0.5517869827276923,0.6711633203346343,5,0.0625,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,HLA-DRB1,5,-0.08722851251099276,0.07996784708113402,3,0.875,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,ICAM1,5,0.24701367062656612,0.3040163678733574,4,0.5625,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,IFIT1,5,-2.864160116125315,-0.9380897957063912,1,0.125,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,IRF1,5,0.11611883354138008,0.35005877241828376,3,0.9375,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,ISG15,5,-0.5652331637252794,-0.9357950362368737,2,0.25,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,STAT1,5,-0.635148593497361,-0.20545794228229397,0,0.0625,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,STAT3,5,-0.004686502101953494,0.03557182935273673,3,0.9375,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,VCAM1,5,0.7444458801473008,0.8433761720113022,4,0.125,single-gene log(CPM+1) difference,,,,
+GSE284005,endothelial Vas_Imm versus DMWM within donor,Stress/inflammatory endothelial fraction,5,0.18621698916328133,0.1385602819028442,5,0.0625,source-study endothelial-state annotation; descriptive,,,,
