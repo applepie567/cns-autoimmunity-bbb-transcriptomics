@@ -1,0 +1,31 @@
+{
+  "title": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis",
+  "upload_type": "software",
+  "description": "Version 2.0.0 of the analysis and reproducibility package accompanying the manuscript “Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis”.\n\nThe package contains analysis scripts, software environment specifications, derived intermediate results, figure source data, five main figures, Supplementary Figures S1–S9 and Supplementary Tables S1–S18. It also includes a figure source index, manuscript alignment documentation and file checksums.\n\nThe main analyses use three mouse EAE datasets (GSE210776, GSE199460 and GSE95401) and three human MS datasets (GSE279183, GSE208747 and GSE284005). Analyses cover endothelial program scores, random effects meta-analysis and leave-one-dataset-out comparisons, cross-species gene effect concordance, strict orthology sensitivity analysis, lesion group comparisons and donor-level MERFISH assessments. Statistical inference uses animals, donors or independent tissue samples as the units of replication. Published VEGF A blockade, permeability, electrical resistance and vascular protein measurements provide separate supporting analyses.\n\nCode is distributed under the MIT License. Newly generated derived tables and metadata are distributed under CC BY 4.0. Original GEO matrices are not redistributed. Source datasets and third-party materials retain their original terms.",
+  "creators": [
+    {
+      "name": "Feng, Yuan",
+      "orcid": "0000-0002-1839-1316"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "blood brain barrier",
+    "multiple sclerosis",
+    "experimental autoimmune encephalomyelitis",
+    "endothelial cells",
+    "single-cell RNA sequencing",
+    "spatial transcriptomics",
+    "reproducibility"
+  ],
+  "version": "2.0.0",
+  "publication_date": "2026-09-05",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "doi": "10.5281/zenodo.22340814"
+}

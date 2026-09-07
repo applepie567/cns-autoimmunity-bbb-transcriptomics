@@ -1,0 +1,6 @@
+public_data/*
+!public_data/README.md
+reconstruction_results/
+__pycache__/
+*.pyc
+*.tmp.*
