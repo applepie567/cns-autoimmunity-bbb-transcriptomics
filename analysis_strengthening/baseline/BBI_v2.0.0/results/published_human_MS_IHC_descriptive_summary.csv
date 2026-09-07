@@ -1,0 +1,10 @@
+marker,region,n_image_observations,mean,sd,median,q1,q3,inference_note
+CD31,Lesion MS,12,9.670833333333333,4.3766455779685325,9.79,6.005,11.5075,Descriptive only; source file has no donor identifiers for image-level observations
+CD31,NAWM MS,11,7.229090909090909,3.210425063898718,7.6,5.0,8.98,Descriptive only; source file has no donor identifiers for image-level observations
+CD31,NAWM HC,11,6.003636363636364,3.007780818900449,5.46,3.375,7.755000000000001,Descriptive only; source file has no donor identifiers for image-level observations
+EGFL7,Lesion MS,12,10.535,2.433906325231109,10.56,9.629999999999999,11.2875,Descriptive only; source file has no donor identifiers for image-level observations
+EGFL7,NAWM MS,12,2.9291666666666667,3.0263372951874388,1.56,1.0275,4.47,Descriptive only; source file has no donor identifiers for image-level observations
+EGFL7,NAWM HC,12,1.5258333333333332,1.2191685567209194,1.245,0.435,2.5075000000000003,Descriptive only; source file has no donor identifiers for image-level observations
+MCAM,Lesion MS,12,9.464583333333334,4.752719536478482,8.625,6.005,10.774999999999999,Descriptive only; source file has no donor identifiers for image-level observations
+MCAM,NAWM MS,12,8.056666666666667,2.8329757350093057,7.52,6.435,9.59,Descriptive only; source file has no donor identifiers for image-level observations
+MCAM,NAWM HC,12,4.8933333333333335,1.7877885442042296,4.3149999999999995,3.81,6.5025,Descriptive only; source file has no donor identifiers for image-level observations

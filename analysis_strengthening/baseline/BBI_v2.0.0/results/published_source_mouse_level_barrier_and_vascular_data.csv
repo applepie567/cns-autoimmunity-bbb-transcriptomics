@@ -1,0 +1,127 @@
+source,endpoint,group,mouse,n_fields,mouse_mean
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 1,9,48.800669858
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 2,8,25.620351674
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 3,7,22.308877645999996
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 4,5,76.129044984
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 5,9,92.17904306111112
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 6,7,16.731658235142856
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 7,7,2.7886097062857145
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 8,7,6.971524264285714
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,IgG,Mouse 9,7,4.182914559428572
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 1,5,1.9520267944
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 2,5,1.9520267944
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 3,9,6.506755981111111
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 4,5,5.8560803824
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 5,5,1.9520267944
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 6,7,12.548743676285714
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 7,7,0.0
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 8,9,1.0844593302222223
+"Shahriar et al. 2024, Figure 7",Venous endothelial proliferation,r84,Mouse 9,8,2.440033493
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 1,9,52.4922423211723
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 2,8,38.01555837141248
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 3,7,34.537218339296174
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 4,5,31.864612998557003
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 5,9,35.825033315986225
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 6,7,37.68102518268169
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 7,7,39.60041331299232
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 8,7,36.86046729799745
+"Shahriar et al. 2024, Figure 7",Venous coverage,IgG,Mouse 9,7,33.54243741297497
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 1,5,18.09055699394451
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 2,5,27.629597196506175
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 3,9,22.8488046593196
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 4,5,17.073580787068053
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 5,5,21.1896359584605
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 6,7,11.318824418093929
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 7,7,22.542175190533072
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 8,9,21.199806055572164
+"Shahriar et al. 2024, Figure 7",Venous coverage,r84,Mouse 9,8,34.441919134441775
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 1,9,3.174444444444444
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 2,8,3.46
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 3,7,1.827142857142857
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 4,5,1.5059999999999998
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 5,9,5.045555555555556
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 6,7,1.5557142857142858
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 7,7,2.2471428571428573
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 8,7,1.544285714285714
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,IgG,Mouse 9,7,1.7400000000000002
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 1,5,0.632
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 2,5,0.742
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 3,9,0.87
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 4,5,0.5640000000000001
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 5,5,0.7040000000000001
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 6,7,1.0328571428571427
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 7,7,0.5042857142857143
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 8,9,0.9188888888888889
+"Shahriar et al. 2024, Figure 7",Endomucin coverage,r84,Mouse 9,8,0.9012500000000001
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 1,3,0.14700000000000002
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 2,4,1.9118025000000003
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 3,3,1.1703999999999999
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 4,4,1.610125
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 5,3,6.8653
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 6,4,3.206875
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 7,3,0.7521666666666667
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 8,4,2.10655
+"Shahriar et al. 2024, Figure 7",IgG leakage,IgG,Mouse 9,3,2.2388999999999997
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 1,5,2.7431999999999994
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 2,4,0.356575
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 3,3,0.7039666666666667
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 4,4,0.271625
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 5,3,3.9789
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 6,3,0.28413333333333335
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 7,3,0.4137666666666666
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 8,3,1.0094333333333334
+"Shahriar et al. 2024, Figure 7",IgG leakage,r84,Mouse 9,3,3.206566666666667
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 1,9,34.74777777777777
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 2,8,26.29875
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 3,7,28.324285714285715
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 4,5,25.377999999999997
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 5,9,40.922222222222224
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 6,7,18.75
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 7,7,18.87
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 8,7,29.42428571428572
+"Shahriar et al. 2024, Figure 7",Venous width,IgG,Mouse 9,7,25.412857142857142
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 1,5,19.559999999999995
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 2,5,22.856
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 3,9,21.754444444444445
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 4,5,22.384
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 5,5,14.197999999999999
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 6,7,20.99285714285714
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 7,7,17.569999999999997
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 8,9,17.48888888888889
+"Shahriar et al. 2024, Figure 7",Venous width,r84,Mouse 9,8,18.51125
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 1,5,4.270508443999999
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 2,7,1.7757325914285713
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 3,5,1.093111392
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 4,7,1.6403502185714285
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 5,9,2.0236229755555555
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 6,8,0.52997057
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 7,4,2.7696490325000003
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 8,5,0.4259287540000001
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,IgG,Mouse 9,4,2.2631912625
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 1,5,1.307582994
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 2,5,0.80032464
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 3,4,0.37345573249999997
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 4,5,0.339727334
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 5,5,0.7419883119999999
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 6,7,0.4541648714285714
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 7,4,0.7541612849999999
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 8,5,1.179468168
+"Shahriar et al. 2024, Extended Data Figure 7",Ki67-positive endothelial cells,r84,Mouse 9,6,1.1567057233333333
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 1,3,3.1788673999999997
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 2,4,4.2931547075
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 3,4,7.601575375
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 4,4,11.61369726
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 5,4,7.934316955
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 6,4,8.8990980325
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 7,4,6.2706685874999994
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 8,4,6.6895637725
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,IgG,Mouse 9,4,3.8363883999999997
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 1,3,8.534488856666668
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 2,3,6.087939543333334
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 3,4,5.46392801
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 4,3,7.530302506666666
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 5,4,4.3180346025
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 6,4,4.043019525
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 7,4,5.149773695
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 8,4,4.155092815000001
+"Shahriar et al. 2024, Extended Data Figure 7",Fibrinogen leakage,r84,Mouse 9,4,16.8145413675

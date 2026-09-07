@@ -1,0 +1,13 @@
+{
+  "matrix_shape": [
+    33939,
+    632375
+  ],
+  "entries": 1471742161,
+  "selected_entries": 8429879,
+  "nuclei": 4268,
+  "groups": 198,
+  "umi_ratio_min": 0.9999999999999868,
+  "umi_ratio_median": 0.9999999999999996,
+  "seconds": 664.2396783828735
+}

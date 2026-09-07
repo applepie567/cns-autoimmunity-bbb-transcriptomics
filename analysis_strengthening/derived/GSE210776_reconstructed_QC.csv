@@ -1,0 +1,8 @@
+dataset,sample_id,group,raw_barcodes,barcodes_after_qc,endothelial_cells,selection_rule,total_UMI
+GSE210776,DS001,CFA,6794880,4086,3902,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,27348914.0
+GSE210776,DS002,Acute,6794880,4116,2595,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,24166608.0
+GSE210776,DS004,CFA,6794880,5757,5288,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,30532976.0
+GSE210776,DS005,Acute,6794880,9168,6274,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,33048476.0
+GSE210776,DS011,Acute,6794880,4519,2415,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,23148268.0
+GSE210776,DS012,Acute,6794880,4054,2310,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,20312829.0
+GSE210776,DS014,CFA,6794880,4989,4425,UMI>=300;genes>=150;EC_hits>=2;EC_score>contaminant,29257242.0
