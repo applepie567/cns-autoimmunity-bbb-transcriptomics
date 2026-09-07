@@ -1,0 +1,29 @@
+{
+  "seed": 20260907,
+  "draws_attempted": 2000,
+  "draws_estimable": 1872,
+  "draws_unestimable": 128,
+  "reconstruction": {
+    "mouse_max_abs_error": 1.9987567156931618e-11,
+    "human_max_abs_error": 1.3322676295501878e-15,
+    "pooled_max_abs_error": 5.750955267558311e-13
+  },
+  "point": {
+    "GSE199460__GSE210776": 0.49758517392457513,
+    "GSE199460__GSE95401": 0.42804815734051876,
+    "GSE199460__GSE279183": 0.16154762003545647,
+    "GSE210776__GSE95401": 0.19505768005343843,
+    "GSE210776__GSE279183": 0.10329425771152692,
+    "GSE95401__GSE279183": 0.15885017412242355,
+    "pooled_mouse__GSE279183": 0.18680426371320313,
+    "mean_within_mouse": 0.37356367043951083,
+    "mean_individual_mouse_human": 0.14123068395646898,
+    "within_minus_individual_cross": 0.23233298648304185,
+    "within_minus_pooled_cross": 0.1867594067263077,
+    "n_genes": 7705
+  },
+  "bootstrap_gene_count_min": 7055,
+  "bootstrap_gene_count_median": 7608.0,
+  "bootstrap_gene_count_max": 7700,
+  "explanation": "Undefined standardized effects caused by zero variance after resampling are excluded jointly from every comparison within the same draw. Draws with fewer than 3 estimable genes are omitted from percentile calculations, without replacing or hiding them. The original target set is fixed at 7705 orthologues. These descriptive intervals condition on the selected cohorts and estimable resamples. They do not have guaranteed nominal coverage with two cases in one cohort."
+}

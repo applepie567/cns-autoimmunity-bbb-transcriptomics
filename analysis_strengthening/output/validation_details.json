@@ -1,0 +1,17 @@
+{
+  "seed": 20260908,
+  "draws": 2000,
+  "minimum_nuclei_primary": 20,
+  "minimum_nuclei_sensitivity": 10,
+  "expression_filter": "CPM at least 1 in at least 3 eligible donors",
+  "primary_tissue_banks": [
+    "Amsterdam BB",
+    "Edinburgh BB"
+  ],
+  "original_human_tissue_bank": "UK Multiple Sclerosis Tissue Bank",
+  "primary": "CAL versus healthy white matter, cohort I",
+  "caution": "Capillary eligibility changes donors, so an additional all EC comparison uses exactly those same donors. Healthy endothelial samples are small. Final concordance ranges jointly resample both reference and validation subjects. Program scaling remains fixed from the primary all endothelial comparison.",
+  "joint_bootstrap_seed": 20260909,
+  "joint_bootstrap_draws": 2000,
+  "interval_scope": "All reported concordance intervals propagate subject uncertainty from both sides of the comparison. Degenerate draws are counted and excluded from descriptive percentile ranges."
+}

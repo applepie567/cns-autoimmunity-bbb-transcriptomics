@@ -1,0 +1,11 @@
+Dataset,Tissue,Platform,Eligible_comparison,Statistical_unit,Analytical_role,Source_URL
+GSE199460,Mouse brain,Single cell RNA sequencing,2 acute EAE and 3 controls,Mouse,Matched benchmark,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199460
+GSE210776,Mouse spinal cord,Single cell RNA sequencing,4 acute EAE and 3 CFA in benchmark,Mouse,Matched benchmark. Other groups remain in the original supporting analyses.,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE210776
+GSE95401,Mouse spinal cord for EAE samples,Sorted endothelial bulk RNA sequencing,3 acute EAE and 3 controls in benchmark,Mouse,Matched benchmark. Other stages retained descriptively.,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95401
+GSE279183,Human brain,Single nucleus RNA sequencing and spatial transcriptomics,4 chronic active MS and 6 controls in benchmark,Donor,Original human reference and spatial context,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279183
+Macnair 2025 cohort I,Human white matter,Single nucleus RNA sequencing,7 chronic active MS and 4 healthy donors. Capillary subset 3 and 3.,Donor,Additional lesion matched endothelial validation,https://doi.org/10.5281/zenodo.8338963
+GSE208747,Human white matter,Visium,14 donors after combining sections from the same donor,Donor,Exploratory lesion category context,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208747
+GSE284005,Human brain,MERFISH panel of 500 genes,5 donors with eligible paired vascular and demyelinated regions,Donor,Targeted spatial context,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284005
+GSE180759,Human white matter,Single nucleus RNA sequencing,"Healthy endothelial counts 0, 8 and 0 after independent marker selection",Donor,Screened and excluded from disease effect validation,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180759
+GSE163005,Human cerebrospinal fluid,Single cell RNA sequencing,See original source inventory,Patient,Archived contextual analysis only. Excluded from the seven primary and validation datasets.,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163005
+GSE163194,Human cerebrospinal fluid,Single cell RNA sequencing,See original source inventory,Patient,Archived contextual analysis only. Excluded from the seven primary and validation datasets.,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163194

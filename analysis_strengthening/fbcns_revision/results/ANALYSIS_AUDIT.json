@@ -1,0 +1,113 @@
+{
+  "seed": 20260910,
+  "program_seed": 20260911,
+  "genes": 6611,
+  "draws_attempted": 2000,
+  "draws_estimable": 1841,
+  "resample_gene_min": 6380,
+  "resample_gene_median": 6576.0,
+  "resample_gene_max": 6611,
+  "reconstruction_errors": {
+    "validation": 4.440892098500626e-16,
+    "mouse_pooled": 5.750955267558311e-13,
+    "first_human": 1.3322676295501878e-15
+  },
+  "cohorts": [
+    {
+      "cohort": "GSE199460",
+      "cases": 2,
+      "controls": 3,
+      "subjects": [
+        "CTL1",
+        "CTL2",
+        "CTL3",
+        "EAE1",
+        "EAE3"
+      ]
+    },
+    {
+      "cohort": "GSE210776",
+      "cases": 4,
+      "controls": 3,
+      "subjects": [
+        "DS001",
+        "DS002",
+        "DS004",
+        "DS005",
+        "DS011",
+        "DS012",
+        "DS014"
+      ]
+    },
+    {
+      "cohort": "GSE95401",
+      "cases": 3,
+      "controls": 3,
+      "subjects": [
+        "EAE_Control1",
+        "EAE_Control2",
+        "EAE_Control3",
+        "EAE_Acute1",
+        "EAE_Acute2",
+        "EAE_Acute3"
+      ]
+    },
+    {
+      "cohort": "GSE279183",
+      "cases": 4,
+      "controls": 6,
+      "subjects": [
+        "CO37",
+        "CO40",
+        "CO41",
+        "CO45",
+        "CO74",
+        "CO85",
+        "MS197",
+        "MS229",
+        "MS377",
+        "MS411"
+      ]
+    },
+    {
+      "cohort": "Macnair_All_EC",
+      "cases": 7,
+      "controls": 4,
+      "subjects": [
+        "Ind102",
+        "Ind116",
+        "Ind118",
+        "Ind120",
+        "Ind124",
+        "Ind127",
+        "Ind130",
+        "Ind144",
+        "Ind145",
+        "Ind86",
+        "Ind98"
+      ]
+    }
+  ],
+  "point": {
+    "GSE199460__GSE210776": 0.5138689161131582,
+    "GSE199460__GSE95401": 0.4391881070926891,
+    "GSE199460__GSE279183": 0.16365241863720253,
+    "GSE199460__Macnair_All_EC": -0.037077814648573355,
+    "GSE210776__GSE95401": 0.21450660547192088,
+    "GSE210776__GSE279183": 0.08717200079628959,
+    "GSE210776__Macnair_All_EC": 0.015103218271419605,
+    "GSE95401__GSE279183": 0.18998917168951895,
+    "GSE95401__Macnair_All_EC": -0.06098955229732816,
+    "GSE279183__Macnair_All_EC": -0.002089854984173919,
+    "mean_within_mouse": 0.3891878762259227,
+    "mean_mouse_human_first": 0.14693786370767034,
+    "mean_mouse_human_validation": -0.027654716224827302,
+    "mean_mouse_human_all": 0.05964157374142153,
+    "within_minus_all_cross": 0.3295463024845012,
+    "pooled_mouse__GSE279183": 0.1897090512712057,
+    "pooled_mouse__Macnair_All_EC": -0.031641354578648216,
+    "n_genes": 6611
+  },
+  "composition_scope": "Published endothelial subtype counts and donor regional scores are retained. No region by cell type count matrix was available in the retained inputs for estimating nonendothelial contributions to GSE279183 spatial pathway scores. No adjusted cell type or causal pathway claim is made.",
+  "interpretation": "Exploratory revision. Functions overlap in gene membership. Bootstrap ranges are conditional descriptive percentiles, not calibrated confidence intervals. The human cohort pair is one pair, not a population estimate of human reproducibility. Strict orthologues retain identical uppercase symbols under the archived mapping rule."
+}

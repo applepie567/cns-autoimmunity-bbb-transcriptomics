@@ -1,0 +1,12 @@
+comparison,rho_or_difference,ci_low,ci_high,n_genes,interval,draws_attempted,draws_estimable
+GSE199460__GSE210776,0.49758517392457513,0.17030691218443889,0.5659859175612874,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+GSE199460__GSE95401,0.42804815734051876,0.12216160826766273,0.43252196467125814,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+GSE199460__GSE279183,0.16154762003545647,0.02547688635194717,0.20218307328698037,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+GSE210776__GSE95401,0.19505768005343843,-0.0737643381954475,0.3346089122000535,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+GSE210776__GSE279183,0.10329425771152692,0.02096829394652066,0.13639912186611663,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+GSE95401__GSE279183,0.15885017412242355,-0.018861147054126132,0.19875572884905193,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+pooled_mouse__GSE279183,0.18680426371320313,0.05971416321096288,0.205081726561816,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+mean_within_mouse,0.37356367043951083,0.13660811724237884,0.4142352512052576,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+mean_individual_mouse_human,0.14123068395646898,0.041340090265625275,0.15676297956030158,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+within_minus_individual_cross,0.23233298648304185,0.059178352993520124,0.30405785708183003,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872
+within_minus_pooled_cross,0.1867594067263077,0.009864886520883407,0.2758951846309118,7705,stratified animal and donor percentile bootstrap conditional on estimable draws,2000,1872

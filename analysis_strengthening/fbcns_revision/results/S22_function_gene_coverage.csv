@@ -1,0 +1,23 @@
+matching,program,original_gene_count,common_gene_count,coverage,eligible_composite,used_genes,excluded_genes,criterion
+strict_6611,Tight_junction,4,3,0.75,True,CLDN5|OCLN|LSR,TJP1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,BBB_transport_identity,4,1,0.25,False,MFSD2A,SLC2A1|ABCG2|ABCB1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,Caveolae_structural,3,2,0.6666666666666666,False,CAV1|CAV2,EHD2,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,PLVAP_permeability,4,3,0.75,True,PLVAP|APLN|ANGPT2,ESM1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,Adhesion_trafficking,6,3,0.5,True,VCAM1|SELE|SELP,ICAM1|CCL2|CXCL10,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,IFN_antigen_presentation,14,5,0.35714285714285715,False,IRF1|B2M|TAP1|IFIT2|ISG15,STAT1|CXCL9|CXCL10|HLA-DRA|HLA-DRB1|H2-AA|H2-AB1|IFIT1|IFIT3,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,Wnt_BBB,6,5,0.8333333333333334,True,LEF1|AXIN2|APCDD1|RECK|TCF7L2,ADGRA2,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,TGF_response,8,4,0.5,True,TGFBR2|SMAD4|SMAD7|SERPINE1,TGFBR1|SMAD2|SMAD3|CTGF,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,VEGF_response,6,3,0.5,True,PGF|ANGPT2|APLN,KDR|FLT1|ESM1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,ROS_Src,7,3,0.42857142857142855,True,NOX4|NCF2|HIF1A,SRC|RAC1|CYBB|NCF1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+strict_6611,ECM_protease,4,3,0.75,True,MMP2|TIMP1|TIMP2,MMP9,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,Tight_junction,4,4,1.0,True,CLDN5|OCLN|TJP1|LSR,,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,BBB_transport_identity,4,3,0.75,True,MFSD2A|SLC2A1|ABCG2,ABCB1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,Caveolae_structural,3,3,1.0,True,CAV1|CAV2|EHD2,,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,PLVAP_permeability,4,4,1.0,True,PLVAP|ESM1|APLN|ANGPT2,,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,Adhesion_trafficking,6,6,1.0,True,ICAM1|VCAM1|SELE|SELP|CCL2|CXCL10,,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,IFN_antigen_presentation,14,9,0.6428571428571429,True,STAT1|IRF1|CXCL10|B2M|TAP1|IFIT1|IFIT2|IFIT3|ISG15,CXCL9|HLA-DRA|HLA-DRB1|H2-AA|H2-AB1,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,Wnt_BBB,6,5,0.8333333333333334,True,LEF1|AXIN2|APCDD1|RECK|TCF7L2,ADGRA2,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,TGF_response,8,7,0.875,True,TGFBR1|TGFBR2|SMAD2|SMAD3|SMAD4|SMAD7|SERPINE1,CTGF,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,VEGF_response,6,6,1.0,True,KDR|FLT1|PGF|ANGPT2|ESM1|APLN,,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,ROS_Src,7,6,0.8571428571428571,True,SRC|RAC1|NOX4|NCF1|NCF2|HIF1A,CYBB,at least 3 nonconstant genes and 40 percent coverage in every cohort
+common_symbol_sensitivity,ECM_protease,4,4,1.0,True,MMP2|MMP9|TIMP1|TIMP2,,at least 3 nonconstant genes and 40 percent coverage in every cohort
