@@ -1,25 +1,5 @@
 # Changelog
 
-## v3.0.0
-
-Prepared 2026-09-07 for the revised endothelial EAE and MS manuscript.
-
-- Added an independent published human endothelial cohort with lesion and subtype eligibility.
-- Compared all ten pairs of five cohorts on the same 6,611 archived strict orthologues.
-- Added animal and donor resampling, all estimability records and subject omission results.
-- Added endothelial composition, matched donor capillary and tissue bank sensitivity analyses.
-- Added eleven focused barrier functions with explicit gene coverage and shared symbol sensitivity analyses.
-- Added tables S19 to S22, an updated S1 inventory, current Figures 1 to 5 and Supplementary Figure S10.
-- Retained the Figure 3A label fix and the previously removed Figure 1 and Figure 4 footer sentences.
-- Updated environment specifications, input URLs, figure source indexing and manuscript alignment.
-- Preserved original numerical source files and marked prior root output folders as historical.
-
-Reserved version DOI 10.5281/zenodo.22641087. Registration is completed when the corresponding new Zenodo version is published.
-
-## Earlier release history
-
-# Changelog
-
 ## 2.0.0  2026-09-05
 
 * Aligned the release with the final manuscript title and interpretation.
@@ -45,4 +25,3 @@ Reserved version DOI 10.5281/zenodo.22641087. Registration is completed when the
 ## 1.0.0  2026-08-20
 
 * Initial archived release under DOI 10.5281/zenodo.22031405.
-

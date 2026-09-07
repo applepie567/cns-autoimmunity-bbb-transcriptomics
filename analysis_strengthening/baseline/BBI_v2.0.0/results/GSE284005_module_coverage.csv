@@ -1,0 +1,4 @@
+module,genes_expected,genes_measured,coverage_fraction,measured_genes,retained_for_scoring
+Endothelial immune activation,20,13,0.65,STAT1; STAT3; IRF1; CXCL9; CXCL10; CCL2; B2M; HLA-DRA; HLA-DRB1; ICAM1; VCAM1; IFIT1; ISG15,True
+Adhesion and trafficking,6,4,0.6666666666666666,ICAM1; VCAM1; CCL2; CXCL10,True
+IFN and antigen presentation,12,9,0.75,STAT1; IRF1; CXCL9; CXCL10; B2M; HLA-DRA; HLA-DRB1; IFIT1; ISG15,True

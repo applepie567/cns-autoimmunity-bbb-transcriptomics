@@ -1,62 +1,84 @@
-# BBI submission data freeze
+# Endothelial responses in EAE and multiple sclerosis
 
-## Manuscript
+## Current analysis
 
-**Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis**
+**Endothelial responses in acute EAE show limited overlap with those in chronic multiple sclerosis**
 
-Version 2.0.0, frozen on 5 September 2026.
+Analysis release **v3.0.0**, prepared on 2026-09-07.
+Reserved version DOI 10.5281/zenodo.22641087. Registration is completed when the corresponding new Zenodo version is published.
 
-This archive contains the analysis scripts, version-pinned software specifications, derived intermediate results, figure source data, final figures, Supplementary Tables S1 to S18 and an audit that links reported results to their source tables. The original GEO matrices are not redistributed.
+The current analysis is under `analysis_strengthening/fbcns_revision`.
+It compares all ten pairs of five cohorts on the same 6,611 genes. It includes
+animal and donor resampling, an additional human endothelial cohort, capillary
+comparisons in the same donors, and focused barrier functions. The original
+acute EAE and spatial results are retained as supporting analyses.
 
-## Main finding and interpretation boundary
+Mean correlation was 0.389 for mouse cohort pairs and 0.060 for all six mouse
+and human pairs. These values refer to exactly the same genes and comparisons.
+Eight of eleven focused gene sets met the strict coverage threshold. None of
+their 40 tests was significant after correction for the false discovery rate.
+The resampling ranges describe uncertainty within the selected small cohorts.
 
-Across three acute EAE cohorts, endothelial immune activation increased and BBB specialization decreased in the same direction. The modified Knapp Hartung intervals crossed zero, so the pooled effect magnitudes remain uncertain. Agreement with chronic active MS was weak at the gene level and the clearest human changes occurred in local inflammatory vascular regions. Published VEGF A blockade data showed effects on selected transcripts and vascular proliferation without a detectable reduction in IgG or fibrinogen leakage. The archive therefore supports transcriptomic associations and independent functional comparisons. It does not establish a new causal endothelial mechanism or functional BBB recovery.
+## Find the current files
 
-## Archive layout
+| Material | Location |
+| --- | --- |
+| Five current main figures | `analysis_strengthening/fbcns_revision/figures/Figure_1.png` through `Figure_5.png`, with PDF copies |
+| Supplementary Figures S1 to S9 | `analysis_strengthening/fbcns_revision/figures/supplementary` |
+| Supplementary Figure S10 | `analysis_strengthening/fbcns_revision/figures/Figure_S10.png` and PDF |
+| Supplementary methods and legends | `analysis_strengthening/fbcns_revision/documentation/Additional_file_1_Supplementary_methods_and_figures.docx` |
+| All tables S1 to S22 | `SUPPLEMENTARY_TABLE_INDEX.csv` maps each table to its file |
+| Current figure source data | `FIGURE_SOURCE_INDEX.csv` maps panels to included files |
+| Animal and donor inputs | `analysis_strengthening/derived` |
+| Original input filenames and URLs | `analysis_strengthening/output/INPUT_FILES.csv` |
+| Five cohort and focused function code | `analysis_strengthening/fbcns_revision/code` |
+| Human validation and reconstruction code | `analysis_strengthening/code` |
+| Reproduction instructions | `REPRODUCIBILITY.md` |
 
-* `code` contains the analysis and figure scripts used for the final manuscript.
-* `results` contains biological sample level scores, effect estimates, meta analysis results, cross species comparisons and published functional data summaries.
-* `figure_source_data` contains the exact derived tables read by each final figure and an index that maps panels to files.
-* `supplementary_tables` contains CSV files for Tables S1 to S18 and the combined workbook `Supplementary_Tables_S1-S18.xlsx`.
-* `figures/main` contains the five final main figures. Figure 4 uses the selected light gray background.
-* `figures/supplementary` contains Supplementary Figures S1 to S9.
-* `figures/BBI_Supplementary_Figures_S1-S9.pdf` contains the merged supplementary figure set.
-* `MANUSCRIPT_ALIGNMENT.md` records the final manuscript checksum and figure checksums.
-* `FREEZE_AUDIT.md` records the manuscript, figure, table and numerical consistency checks.
-* `public_data/README.md` lists input locations expected by the reconstruction scripts.
-* `REPRODUCIBILITY.md` describes the verified workflow and the limits of reconstruction from original inputs.
-* `MANIFEST.sha256` records every public file except the manifest itself.
+## Reproduce the revised analysis
 
-## Reproduce figures from frozen tables
+Use Python 3.12 in a separate environment. From the repository root run
 
 ```bash
-conda env create -f environment.yml
-conda activate bbi-endothelial-freeze
-python code/verify_submission_freeze.py --check-manifest
-python code/make_submission_figures.py
-python code/run_strict_orthology.py
-python code/verify_submission_freeze.py
+python -m pip install -r requirements.txt
+python code/verify_release.py
+python analysis_strengthening/fbcns_revision/code/analyze_fbcns.py
+python analysis_strengthening/fbcns_revision/code/make_figures.py
 ```
 
-Check the manifest on the downloaded archive before regenerating outputs. Regeneration also creates TIFF exports and rebuilds the supplementary PDF, whose timestamp metadata can change its binary checksum. The figure workflow reads only files included in this archive. Run reconstruction from original inputs in a separate working copy, following `public_data/README.md` and `REPRODUCIBILITY.md`.
+Check the manifest before regenerating files. New plot exports and numerical
+formatting may change binary checksums after regeneration. See
+`REPRODUCIBILITY.md` for upstream reconstructions and all raw download steps.
+The included derived expression profiles are sufficient to rerun the revised
+five cohort comparison. They are not a complete collection of raw sequencing
+matrices. Source annotations and the retained strict mapping define the
+eligibility and matching rules for this version.
 
-## Statistical units
+## Previous files and version history
 
-Animals, donors or independent tissue samples are used as the units for statistical inference. Cells, nuclei, microscopic fields and spatial spots remain nested within their biological samples. Human image level immunohistochemistry and well level electrical resistance data are summarized descriptively when donor or experiment identifiers were unavailable.
+The root folders `code`, `results`, `figure_source_data`, `figures` and
+`supplementary_tables` retain v2 source material so previous links continue
+to work. Their README files point to the current outputs. Use the current
+figure paths above for the revised manuscript. `code/verify_release.py` is
+the v3 manifest verifier. Other root code belongs to the earlier analysis.
+The separate baseline copy under `analysis_strengthening/baseline/BBI_v2.0.0`
+provides the exact relative input paths used by the revised scripts.
+Historical infection related tables are retained for provenance and are not
+part of the current EAE and MS endothelial comparison.
 
-## Repository and version DOI
+Previous v2.0.0 archive: https://doi.org/10.5281/zenodo.22340814
 
-* Code repository: https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics
-* Version 2.0.0 DOI: [doi:10.5281/zenodo.22340814](https://doi.org/10.5281/zenodo.22340814)
-* Previous version 1.0.0 DOI: [doi:10.5281/zenodo.22031405](https://doi.org/10.5281/zenodo.22031405)
-* DOI for the version series: [doi:10.5281/zenodo.22031404](https://doi.org/10.5281/zenodo.22031404)
+Version series: https://doi.org/10.5281/zenodo.22031404
 
-The version 2.0.0 DOI was reserved in an existing Zenodo new-version draft during package preparation on 5 September 2026. Reservation does not constitute publication. Zenodo registers the DOI when that draft is published. Cite the version DOI to identify these particular archived files.
+Code repository: https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics
 
-The project seed is 20260901. The focused-set bootstrap intervals in Table S15 use the recovered original seed 20260904 with 2000 resamples, recorded in analysis_parameters.json.
-
-The software archive retains Yuan Feng as its creator, consistent with the preceding software release. The manuscript has its own author list.
+The software archive retains Yuan Feng as creator, consistent with the existing
+release. The manuscript has its own author list. This archive supplies the
+analysis materials and the manuscript checksum. The full manuscript and cover
+letter are supplied separately for journal submission.
 
 ## Licenses
 
-Code is distributed under the MIT License. Newly generated derived tables and metadata are distributed under CC BY 4.0. Original public data and source study files retain their original terms.
+Code is MIT licensed. Newly generated derived tables and metadata are licensed
+under CC BY 4.0. Source study materials and third party annotations retain their
+original terms. See `LICENSE` and `LICENSE-DATA.md`.

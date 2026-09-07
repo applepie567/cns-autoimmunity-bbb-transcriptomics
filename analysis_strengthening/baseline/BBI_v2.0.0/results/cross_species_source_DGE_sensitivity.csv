@@ -1,0 +1,2 @@
+n_reported_source_EC_DEGs,mouse_meta_vs_source_Wald_rho,mouse_meta_vs_source_Wald_p,mouse_vs_source_direction_concordance,reconstructed_human_vs_source_Wald_rho,reconstructed_human_vs_source_Wald_p,reconstructed_human_vs_source_direction_concordance,boundary
+1805,0.24534705069741203,3.748713381883521e-26,0.6088642659279778,0.8441982449903034,0.0,0.9728531855955679,source supplement contains a filtered EC DEG set and is used only as sensitivity validation

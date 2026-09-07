@@ -1,19 +1,26 @@
-# Public input data and dataset roles
+# Data sources for v3
 
-Original matrices and archives are hosted by NCBI GEO and are not copied into this release.
+| Role | Source |
+| --- | --- |
+| Acute EAE brain endothelial cells | GSE199460 |
+| Acute EAE spinal endothelial cells | GSE210776 |
+| Sorted spinal endothelial RNA | GSE95401 |
+| Human endothelial and spatial reference | GSE279183 |
+| Additional human white matter endothelial cohort | Macnair et al., Neuron 2025, DOI 10.1016/j.neuron.2024.11.016 |
+| Macnair source matrices and annotations | https://doi.org/10.5281/zenodo.8338963 |
+| Human lesion category spatial analysis | GSE208747 |
+| Donor paired MERFISH analysis | GSE284005 |
 
-| GEO accession | Organism and modality | Final manuscript role |
-| --- | --- | --- |
-| GSE210776 | Mouse CNS endothelial single cell RNA sequencing | Acute EAE cohort and VEGF A transcript analysis |
-| GSE199460 | Mouse single cell RNA sequencing | Independent acute EAE endothelial cohort and venous sensitivity analysis |
-| GSE95401 | Mouse CNS endothelial bulk RNA sequencing | Acute EAE cohort and descriptive stage comparison |
-| GSE279183 | Human MS single nucleus and spatial transcriptomics | Donor level endothelial effects and local inflammatory vascular regions |
-| GSE208747 | Human MS spatial transcriptomics | Exploratory lesion group comparisons and threshold sensitivity |
-| GSE284005 | Human MS targeted MERFISH | Independent paired spatial assessment in five evaluable donors |
-| GSE168202 | Mouse CNS single cell RNA sequencing | Screened and excluded because the brain arm lacks within stage biological replication |
-| GSE163005 | Human cerebrospinal fluid single cell RNA sequencing | Supplementary infection context: source details in S11 and S12, summary in S13; excluded from the main vascular conclusions |
-| GSE163194 | Human cerebrospinal fluid single cell RNA sequencing | Supplementary infection context: source details in S11 and S12, summary in S13; excluded from the main vascular conclusions |
+Original filenames, download URLs, sizes and available checksums are in
+analysis_strengthening/output/INPUT_FILES.csv. The current cohort inventory
+is analysis_strengthening/output/S1_updated_dataset_inventory.csv. Source
+annotations and downloaded accession metadata accompany the reconstruction
+inputs. The main five cohort sample counts are in
+analysis_strengthening/fbcns_revision/results/ANALYSIS_AUDIT.json.
 
-Published permeability, vascular, electrical resistance and immunohistochemistry values were reanalyzed from the source files accompanying Shahriar et al. The precise scope and statistical unit for each endpoint are documented in Supplementary Table S14 and in the result tables.
-
-Place downloaded source files under `public_data` using the directory names expected by the scripts. Do not commit raw human matrices, histology images or source study archives to the public repository.
+Derived animal and donor profiles and the selected human endothelial count
+sums are included under analysis_strengthening/derived. Raw GEO and full
+Macnair matrices remain at the source repositories. Original functional and
+spatial source tables remain under analysis_strengthening/baseline/BBI_v2.0.0.
+Historical cerebrospinal fluid infection analyses are retained only as archival
+context. Source materials retain their original licenses and access terms.

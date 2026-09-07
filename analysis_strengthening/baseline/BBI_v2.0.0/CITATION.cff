@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the versioned archive for this release."
+type: software
+title: "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis"
+authors:
+  - family-names: Feng
+    given-names: Yuan
+    orcid: "https://orcid.org/0000-0002-1839-1316"
+version: "2.0.0"
+doi: "10.5281/zenodo.22340814"
+date-released: "2026-09-05"
+repository-code: "https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics"
+license: MIT
+keywords:
+  - blood brain barrier
+  - multiple sclerosis
+  - experimental autoimmune encephalomyelitis
+  - endothelial transcriptomics
+  - spatial transcriptomics
+abstract: >-
+  Reproducibility package for biological sample level analysis of brain
+  endothelial responses in acute EAE and human multiple sclerosis.

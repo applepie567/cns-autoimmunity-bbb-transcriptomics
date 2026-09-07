@@ -1,23 +1,94 @@
 {
-  "random_seed": 20260901,
-  "primary_statistical_unit": "animal, donor or independent biological sample",
-  "meta_analysis": "DerSimonian and Laird random effects with modified Knapp Hartung sensitivity intervals",
-  "leave_one_dataset_out": true,
-  "orthology_primary": "uppercase gene symbol matching",
-  "orthology_sensitivity": "HCOP reciprocal one to one pairs supported by Ensembl and NCBI, downloaded 2026-09-04; restricted to the primary uppercase-symbol-matched genes",
-  "GSE284005_minimum_endothelial_cells_per_region": 50,
-  "GSE284005_minimum_module_genes": 4,
-  "GSE284005_minimum_module_coverage": 0.4,
-  "GSE208747_endothelial_rich_primary_quantile": 0.3,
-  "GSE208747_endothelial_rich_sensitivity_quantiles": [
-    0.2,
-    0.4
+  "version": "3.0.0",
+  "primary_common_genes": 6611,
+  "cohorts": [
+    {
+      "cohort": "GSE199460",
+      "cases": 2,
+      "controls": 3,
+      "subjects": [
+        "CTL1",
+        "CTL2",
+        "CTL3",
+        "EAE1",
+        "EAE3"
+      ]
+    },
+    {
+      "cohort": "GSE210776",
+      "cases": 4,
+      "controls": 3,
+      "subjects": [
+        "DS001",
+        "DS002",
+        "DS004",
+        "DS005",
+        "DS011",
+        "DS012",
+        "DS014"
+      ]
+    },
+    {
+      "cohort": "GSE95401",
+      "cases": 3,
+      "controls": 3,
+      "subjects": [
+        "EAE_Control1",
+        "EAE_Control2",
+        "EAE_Control3",
+        "EAE_Acute1",
+        "EAE_Acute2",
+        "EAE_Acute3"
+      ]
+    },
+    {
+      "cohort": "GSE279183",
+      "cases": 4,
+      "controls": 6,
+      "subjects": [
+        "CO37",
+        "CO40",
+        "CO41",
+        "CO45",
+        "CO74",
+        "CO85",
+        "MS197",
+        "MS229",
+        "MS377",
+        "MS411"
+      ]
+    },
+    {
+      "cohort": "Macnair_All_EC",
+      "cases": 7,
+      "controls": 4,
+      "subjects": [
+        "Ind102",
+        "Ind116",
+        "Ind118",
+        "Ind120",
+        "Ind124",
+        "Ind127",
+        "Ind130",
+        "Ind144",
+        "Ind145",
+        "Ind86",
+        "Ind98"
+      ]
+    }
   ],
-  "Figure_4_background": {
-    "color": "#BFC4C8",
-    "alpha": 0.48,
-    "point_size": 2.1
+  "subject_resampling_seed": 20260910,
+  "function_resampling_seed": 20260911,
+  "resamples_attempted": 2000,
+  "resamples_estimable": 1841,
+  "focused_function_coverage": {
+    "minimum_genes": 3,
+    "minimum_fraction": 0.4,
+    "strict_eligible_functions": 8,
+    "strict_tests": 40,
+    "common_symbol_tests": 55
   },
-  "orthology_bootstrap_seed": 20260904,
-  "orthology_bootstrap_resamples": 2000
+  "comparison": "same archived strict orthologues and Hedges g estimator across all ten cohort pairs",
+  "primary_statistical_unit": "animal or donor",
+  "historical_parameters": "analysis_strengthening/baseline/BBI_v2.0.0/analysis_parameters.json"
 }

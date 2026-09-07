@@ -1,7 +1,7 @@
 {
-  "title": "Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis",
+  "title": "Endothelial responses in acute EAE show limited overlap with those in chronic multiple sclerosis",
   "upload_type": "software",
-  "description": "Version 2.0.0 of the analysis and reproducibility package accompanying the manuscript “Brain endothelial responses in acute EAE partially overlap with vascular changes in multiple sclerosis”.\n\nThe package contains analysis scripts, software environment specifications, derived intermediate results, figure source data, five main figures, Supplementary Figures S1–S9 and Supplementary Tables S1–S18. It also includes a figure source index, manuscript alignment documentation and file checksums.\n\nThe main analyses use three mouse EAE datasets (GSE210776, GSE199460 and GSE95401) and three human MS datasets (GSE279183, GSE208747 and GSE284005). Analyses cover endothelial program scores, random effects meta-analysis and leave-one-dataset-out comparisons, cross-species gene effect concordance, strict orthology sensitivity analysis, lesion group comparisons and donor-level MERFISH assessments. Statistical inference uses animals, donors or independent tissue samples as the units of replication. Published VEGF A blockade, permeability, electrical resistance and vascular protein measurements provide separate supporting analyses.\n\nCode is distributed under the MIT License. Newly generated derived tables and metadata are distributed under CC BY 4.0. Original GEO matrices are not redistributed. Source datasets and third-party materials retain their original terms.",
+  "description": "Version 3.0.0 of the analysis and reproducibility package accompanying the manuscript “Endothelial responses in acute EAE show limited overlap with those in chronic multiple sclerosis”.\n\nThe revised comparison uses three acute EAE cohorts and two human endothelial cohorts with chronic active multiple sclerosis. All ten cohort pairs use the same 6,611 archived strict orthologues and the same effect estimator. Stratified resampling of animals and donors, subject omission analyses, endothelial subtype composition, and comparisons restricted to capillary cells are included. Eleven barrier related gene sets are assessed with explicit coverage rules and an additional comparison using shared gene symbols.\n\nThe archive contains analysis scripts, Python environment specifications, derived animal and donor expression profiles, input filenames and download URLs, numerical results for Supplementary Tables S1 to S22, five current main figures and Supplementary Figures S1 to S10. Earlier results and code are retained with clear links to the current analysis. The source studies provide the original raw sequencing matrices.\n\nMean agreement was 0.389 among the three mouse cohort pairs and 0.060 among the six mouse and human pairs on the common gene set. Eight focused gene sets met the strict coverage threshold. None of their 40 tests was significant after correction for the false discovery rate. The archive records all 2,000 resampling attempts, including 1,841 estimable attempts, and treats their percentile ranges as descriptive summaries of the selected cohorts.\n\nCode is licensed under MIT. Newly generated derived tables and metadata are licensed under CC BY 4.0. Source data and third party annotations retain their original terms. Original sequencing matrices are obtained from the source repositories.",
   "creators": [
     {
       "name": "Feng, Yuan",
@@ -14,18 +14,18 @@
     "multiple sclerosis",
     "experimental autoimmune encephalomyelitis",
     "endothelial cells",
-    "single-cell RNA sequencing",
+    "single cell transcriptomics",
     "spatial transcriptomics",
     "reproducibility"
   ],
-  "version": "2.0.0",
-  "publication_date": "2026-09-05",
+  "version": "3.0.0",
+  "publication_date": "2026-09-07",
   "related_identifiers": [
     {
       "identifier": "https://github.com/applepie567/cns-autoimmunity-bbb-transcriptomics",
-      "relation": "isSupplementTo",
+      "relation": "isVersionOf",
       "scheme": "url"
     }
   ],
-  "doi": "10.5281/zenodo.22340814"
+  "doi": "10.5281/zenodo.22641087"
 }
